@@ -21,7 +21,7 @@
 title: My Blogs
 email: ye.lu.273@my.csun.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  A little informations on different topics about Laravel. I hope you like it!
+  A little information on different topics about Laravel. I hope you like it!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

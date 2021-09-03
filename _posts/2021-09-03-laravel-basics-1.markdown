@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Laravel Basics 1!"
+title:  "Laravel Basics - 1"
 date:   2021-09-03 11:39:47 +0630
 categories: jekyll update
 ---
@@ -32,6 +32,8 @@ Laravel has functions where you can set your project to automatically link with 
 
 
 
-### You can also check out the [Laravel-ORM][Laravel-ORM] for more info on the official website.
+### You can also check out [Laravel][Laravel] for more information on the official website.
 
-[Laravel-ORM]: https://youtu.be/O91DT1pR1ew
+![Laravel](/assets/images/laravel-8.png "Laravel-8")
+
+[Laravel]: https://laravel.com/docs/8.x/releases
