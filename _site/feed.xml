@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-09-03T14:07:42+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little informations on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">Laravel Basics 1!</title><link href="/jekyll/update/2021/09/03/laravel-basics-1.html" rel="alternate" type="text/html" title="Laravel Basics 1!" /><published>2021-09-03T11:39:47+06:30</published><updated>2021-09-03T11:39:47+06:30</updated><id>/jekyll/update/2021/09/03/laravel-basics-1</id><content type="html" xml:base="/jekyll/update/2021/09/03/laravel-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;what-is-laravel&quot;&gt;What is Laravel?&lt;/h2&gt;
+&lt;blockquote&gt;
+
+  &lt;p&gt;Laravel is a web framework made for developers with pretty sick, easy-to-understand tools. It is very useful and easy for developers to create a full stack web applications in a fast time period. It has so many cool functions like dependency injection, an expressive database abstraction layer, queues and scheduled jobs, unit and integration testing, and more.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;why-should-we-use-laravel&quot;&gt;Why should we use Laravel?&lt;/h2&gt;
+&lt;blockquote&gt;
+
+  &lt;p&gt;Laravel offers various tools and frameworks for you to write a web application. There are three main types of framworks that defines Laravel. It’s&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;A progressive framework where it grows together with the users.&lt;/li&gt;
+    &lt;li&gt;A scalable framework which uses PHP and allow fast-distributed cache systems like Redis, horizontal scaling.&lt;/li&gt;
+    &lt;li&gt;A community framework which makes Laravel incredibly developer firendly.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;how-to-install-laravel&quot;&gt;How to install Laravel&lt;/h2&gt;
+&lt;blockquote&gt;
+
+  &lt;p&gt;To install the latest Laravel on your local machine, you must&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;First install composer and PHP&lt;/li&gt;
+    &lt;li&gt;Then run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;composer create-project laravel/laravel &amp;lt;project_name&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;And thats it!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;more-about-laravel&quot;&gt;More about laravel&lt;/h2&gt;
+&lt;blockquote&gt;
+
+  &lt;p&gt;Laravel has functions where you can set your project to automatically link with Git. You can use Laravel to create Javascript single page application and also Mobile Applciation. Cool isn’t it? But thats not all. There is alot more that Laravel can do to help your life easier.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;you-can-also-check-out-the-laravel-orm-for-more-info-on-the-official-website&quot;&gt;You can also check out the &lt;a href=&quot;https://youtu.be/O91DT1pR1ew&quot;&gt;Laravel-ORM&lt;/a&gt; for more info on the official website.&lt;/h3&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry></feed>
