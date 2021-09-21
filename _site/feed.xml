@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-09-03T21:54:43+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little informations on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">Laravel Basics - 1</title><link href="/jekyll/update/2021/09/03/laravel-basics-1.html" rel="alternate" type="text/html" title="Laravel Basics - 1" /><published>2021-09-03T11:39:47+06:30</published><updated>2021-09-03T11:39:47+06:30</updated><id>/jekyll/update/2021/09/03/laravel-basics-1</id><content type="html" xml:base="/jekyll/update/2021/09/03/laravel-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-09-21T14:17:12+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">Laravel Basics - 1</title><link href="/jekyll/update/2021/09/03/laravel-basics-1.html" rel="alternate" type="text/html" title="Laravel Basics - 1" /><published>2021-09-03T11:39:47+06:30</published><updated>2021-09-03T11:39:47+06:30</updated><id>/jekyll/update/2021/09/03/laravel-basics-1</id><content type="html" xml:base="/jekyll/update/2021/09/03/laravel-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
 
 &lt;h2 id=&quot;what-is-laravel&quot;&gt;What is Laravel?&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -37,8 +37,42 @@
 
 &lt;h3 id=&quot;you-can-also-check-out-laravel-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://laravel.com/docs/8.x/releases&quot;&gt;Laravel&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">Laravel Basics - 2</title><link href="/jekyll/update/2021/09/03/laravel-basics-2.html" rel="alternate" type="text/html" title="Laravel Basics - 2" /><published>2021-09-03T11:39:47+06:30</published><updated>2021-09-03T11:39:47+06:30</updated><id>/jekyll/update/2021/09/03/laravel-basics-2</id><content type="html" xml:base="/jekyll/update/2021/09/03/laravel-basics-2.html">&lt;h1 id=&quot;will-be-released-soon&quot;&gt;Will be released soon!&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">Laravel Basics - 2</title><link href="/jekyll/update/2021/09/03/laravel-basics-2.html" rel="alternate" type="text/html" title="Laravel Basics - 2" /><published>2021-09-03T11:39:47+06:30</published><updated>2021-09-03T11:39:47+06:30</updated><id>/jekyll/update/2021/09/03/laravel-basics-2</id><content type="html" xml:base="/jekyll/update/2021/09/03/laravel-basics-2.html">&lt;h1 id=&quot;part-2&quot;&gt;Part 2&lt;/h1&gt;
 
-&lt;h1 id=&quot;stay-tuned&quot;&gt;Stay Tuned!&lt;/h1&gt;
+&lt;h2 id=&quot;setting-up-a-new-project&quot;&gt;Setting up a new project&lt;/h2&gt;
+&lt;blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Will be released soon!</summary></entry></feed>
+  &lt;p&gt;It is really easy and simple to set up a new project in Laravel. All you have to do is run this command using composer.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;composer create-project laravel/laravel &amp;lt;project_name&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;Then, you go into the directory of your project and you will have access to everything.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;hosting-a-web-application-with-laravel&quot;&gt;Hosting a web application with Laravel&lt;/h2&gt;
+&lt;blockquote&gt;
+
+  &lt;p&gt;Just like prometheus or jekyll, when you want to host a web app or site on your local host, you will have to run this. But instead of the keyword like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;  , Laravel uses PHP. But make sure you are in the project directory before you host your web app.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;php artisan serve&lt;/code&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;the-default-web-app&quot;&gt;The default web app&lt;/h2&gt;
+&lt;blockquote&gt;
+
+  &lt;p&gt;The first page you will see after you host your web app is the default Laravel page. It is rendered from the welcome.blade.php file under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/resourses/view&lt;/code&gt; folder. It is written in html and you can mess with it on your first try.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;styling-your-blade&quot;&gt;Styling your blade&lt;/h2&gt;
+&lt;blockquote&gt;
+
+  &lt;p&gt;There is a app.css file under public dirctory so that you can beautify your blade. But you can also use internal css or inline css to make your page more beautiful.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;this-is-an-example-of-a-default-page-on-laravel&quot;&gt;This is an example of a default page on laravel&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/default_page.png&quot; alt=&quot;default_page&quot; title=&quot;default-page&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;you-can-also-check-out-laravel-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://laravel.com/docs/8.x/releases&quot;&gt;Laravel&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 2</summary></entry></feed>
