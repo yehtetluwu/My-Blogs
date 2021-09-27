@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Laravel Basics - 2"
-date:   2021-09-03 11:39:47 +0630
+date:   2021-09-16 8:16:47 +0630
 categories: jekyll update
 ---
 # Part 2

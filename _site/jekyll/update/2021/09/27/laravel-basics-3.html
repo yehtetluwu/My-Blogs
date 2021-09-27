@@ -6,14 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Laravel Basics - 1</title>
-  <meta name="description" content="Part 1">
+  <title>Laravel Basics - 3</title>
+  <meta name="description" content="Part 3">
 
   
   
   <link rel="stylesheet" href="/assets/style.css">
 
-  <link rel="canonical" href="/jekyll/update/2021/09/03/laravel-basics-1.html">
+  <link rel="canonical" href="/jekyll/update/2021/09/27/laravel-basics-3.html">
   <link rel="alternate" type="application/rss+xml" title="My Blogs" href="/feed.xml">
 
   <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -54,51 +54,48 @@
 
     <div>
       <article class="container px-2 mx-auto mb4" itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 class="h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">Laravel Basics - 1</h1>
+  <h1 class="h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">Laravel Basics - 3</h1>
   <div class="col-4 sm-width-full mt-1 border-top-thin ">
-    <p class="mb-3 py-2 bold h4"><time datetime="2021-09-03T11:39:47+06:30" itemprop="datePublished">Sep 3, 2021</time></p>
+    <p class="mb-3 py-2 bold h4"><time datetime="2021-09-27T12:20:47+06:30" itemprop="datePublished">Sep 27, 2021</time></p>
   </div>
 
   <div class="prose" itemprop="articleBody">
-      <h1 id="part-1">Part 1</h1>
+      <h1 id="part-3">Part 3</h1>
 
-<h2 id="what-is-laravel">What is Laravel?</h2>
+<h2 id="routing">Routing</h2>
 <blockquote>
+  <p>What is routing?</p>
 
-  <p>Laravel is a web framework made for developers with pretty sick, easy-to-understand tools. It is very useful and easy for developers to create a full stack web applications in a fast time period. It has so many cool functions like dependency injection, an expressive database abstraction layer, queues and scheduled jobs, unit and integration testing, and more.</p>
+  <p>Before I answer that, What are routes in Laravel? Routes are basically something that will link you to the controllers and also let the users to jump through specified paths/query strings you made for you web app. It can be seen under routes folder. Most of the times, you have to define the routes in the <strong>web.php</strong> file.</p>
+
+  <p>It accepts http verbs like <strong>get, post, put, patch, delete and options</strong>. But any html forms with <em>post</em>, <em>put</em>, <em>patch</em>, <em>delete</em> are required to include CSRF token filed. You can also redirect if you are defining a route that redirects to</p>
 </blockquote>
 
-<h2 id="why-should-we-use-laravel">Why should we use Laravel?</h2>
-<blockquote>
+<ul>
+  <li>This is an example of a defined route.</li>
+</ul>
 
-  <p>Laravel offers various tools and frameworks for you to write a web application. There are three main types of framworks that defines Laravel. It’s</p>
+<p><code class="language-plaintext highlighter-rouge">use Illuminate\Support\Facades\Route;</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">Route::get('/greeting', function () {</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">return 'Hello World'; });</code></p>
+
+<h2 id="middleware">Middleware</h2>
+<blockquote>
+  <p>Middleware is a mechanism for inspecting and filtering HTTP requests that goes into your application. Laravel has this awesome middleware which checks if the user is authenticated or not. If the user is not authenticated, it will take you to the log in screen and if the user is authenticated, it will allow futher requests into the application. And of course middlewares are not only for authentication. You can also write a log with it! 
+Here is an example code for defining a middleware</p>
   <ul>
-    <li>A progressive framework where it grows together with the users.</li>
-    <li>A scalable framework which uses PHP and allow fast-distributed cache systems like Redis, horizontal scaling.</li>
-    <li>A community framework which makes Laravel incredibly developer firendly.</li>
+    <li><code class="language-plaintext highlighter-rouge">php artisan make:middleware EnsureTokenIsValid</code></li>
   </ul>
 </blockquote>
 
-<h2 id="how-to-install-laravel">How to install Laravel</h2>
+<h2 id="csrf-protection">CSRF Protection</h2>
 <blockquote>
-
-  <p>To install the latest Laravel on your local machine, you must</p>
-  <ul>
-    <li>First install composer and PHP</li>
-    <li>Then run <code class="language-plaintext highlighter-rouge">composer create-project laravel/laravel &lt;project_name&gt;</code></li>
-  </ul>
-
-  <p>And thats it!</p>
-</blockquote>
-
-<h2 id="more-about-laravel">More about laravel</h2>
-<blockquote>
-
-  <p>Laravel has functions where you can set your project to automatically link with Git. You can use Laravel to create Javascript single page application and also Mobile Applciation. Cool isn’t it? But thats not all. There is alot more that Laravel can do to help your life easier.</p>
+  <p>CSRF has been mentioned above but what is it? It is called Cross-site request forgeries and is a type of malicious exploit where suspicious commands are being run from an authenticated user.</p>
 </blockquote>
 
 <h3 id="you-can-also-check-out-laravel-for-more-information-on-the-official-website">You can also check out <a href="https://laravel.com/docs/8.x/releases">Laravel</a> for more information on the official website.</h3>
-
 <p><img src="/assets/images/laravel-8.png" alt="Laravel" title="Laravel-8" /></p>
 
 
@@ -111,15 +108,15 @@
 
 
 
-  
-  <div class="col-4 sm-width-full left mt-3">
+  <div class="col-4 sm-width-full left mr-lg-4 mt-3">
     <a class="no-underline border-top-thin py-1 block" href="/jekyll/update/2021/09/16/laravel-basics-2.html">
-      <span class="h5 bold text-accent">Next</span>
+      <span class="h5 bold text-accent">Previous</span>
       <p class="bold h3 link-primary mb-1">Laravel Basics - 2</p>
-      <p># Part 2 ## Setting up a new project > It is really easy and simple to set up a...</p>
+      <p>Part 2 Setting up a new project It is really easy and simple to set up a new project in...</p>
     </a>
   </div>
-
+  
+  
 
 </div>
 
