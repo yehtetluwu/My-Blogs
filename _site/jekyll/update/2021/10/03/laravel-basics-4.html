@@ -6,14 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Laravel Basics - 3</title>
+  <title>Laravel Basics - 4</title>
   <meta name="description" content="Part 3">
 
   
   
   <link rel="stylesheet" href="/assets/style.css">
 
-  <link rel="canonical" href="/jekyll/update/2021/09/27/laravel-basics-3.html">
+  <link rel="canonical" href="/jekyll/update/2021/10/03/laravel-basics-4.html">
   <link rel="alternate" type="application/rss+xml" title="My Blogs" href="/feed.xml">
 
   <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -54,45 +54,30 @@
 
     <div>
       <article class="container px-2 mx-auto mb4" itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 class="h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">Laravel Basics - 3</h1>
+  <h1 class="h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">Laravel Basics - 4</h1>
   <div class="col-4 sm-width-full mt-1 border-top-thin ">
-    <p class="mb-3 py-2 bold h4"><time datetime="2021-09-27T12:20:47+06:30" itemprop="datePublished">Sep 27, 2021</time></p>
+    <p class="mb-3 py-2 bold h4"><time datetime="2021-10-03T11:03:02+06:30" itemprop="datePublished">Oct 3, 2021</time></p>
   </div>
 
   <div class="prose" itemprop="articleBody">
       <h1 id="part-3">Part 3</h1>
 
-<h2 id="routing">Routing</h2>
+<h2 id="controllers">Controllers</h2>
 <blockquote>
-  <p>What is routing?</p>
-
-  <p>Before I answer that, What are routes in Laravel? Routes are basically something that will link you to the controllers and also let the users to jump through specified paths/query strings you made for you web app. It can be seen under routes folder. Most of the times, you have to define the routes in the <strong>web.php</strong> file.</p>
-
-  <p>It accepts http verbs like <strong>get, post, put, patch, delete and options</strong>. But any html forms with <em>post</em>, <em>put</em>, <em>patch</em>, <em>delete</em> are required to include CSRF token filed. You can also redirect if you are defining a route that redirects to</p>
+  <p>They can controll and organize request handling logics that are happening in your routes. You can also handle related requests under single class within containers. They can be found under <code class="language-plaintext highlighter-rouge">app/Http/Controllers/</code>. Controllers are also invokable. You can also generate an invokable controller by running this command with invokable tag <code class="language-plaintext highlighter-rouge">php artisan make:controller &lt;Controller_Name&gt; --invokable</code>. There is also resource controller which has CRUD classes defined for the users autimatically. All you have to do is use –resource with the command. You also have to make sure to call the model related to the requests you are defining in your controlller so that they are usable.</p>
 </blockquote>
 
-<ul>
-  <li>This is an example of a defined route.</li>
-</ul>
+<p>This is an example controller class.</p>
 
-<p><code class="language-plaintext highlighter-rouge">use Illuminate\Support\Facades\Route;</code></p>
+<p>` use App\Http\Controllers\UserController; `</p>
 
-<p><code class="language-plaintext highlighter-rouge">Route::get('/greeting', function () {</code></p>
+<p><code class="language-plaintext highlighter-rouge">Route::get('/user/{id}', [UserController::class, 'show']);</code></p>
 
-<p><code class="language-plaintext highlighter-rouge">return 'Hello World'; });</code></p>
-
-<h2 id="middleware">Middleware</h2>
+<h2 id="models">Models</h2>
 <blockquote>
-  <p>Middleware is a mechanism for inspecting and filtering HTTP requests that goes into your application. Laravel has this awesome middleware which checks if the user is authenticated or not. If the user is not authenticated, it will take you to the log in screen and if the user is authenticated, it will allow futher requests into the application. And of course middlewares are not only for authentication. You can also write a log with it! 
-Here is an example code for defining a middleware</p>
-  <ul>
-    <li><code class="language-plaintext highlighter-rouge">php artisan make:middleware EnsureTokenIsValid</code></li>
-  </ul>
-</blockquote>
+  <p>Since this was mentioned above, what are models?</p>
 
-<h2 id="csrf-protection">CSRF Protection</h2>
-<blockquote>
-  <p>CSRF has been mentioned above but what is it? It is called Cross-site request forgeries and is a type of malicious exploit where suspicious commands are being run from an authenticated user.</p>
+  <p>Laravel uses Eloquent which is an object-relational mapper that can interact with the databases. When you use Eloquent, each database table has corresponding Models so that it can interact with the table. To create a model, run <code class="language-plaintext highlighter-rouge">php artisan make:model &lt;model name&gt;</code>. You can also add –migration option which creates and modifies database tables and columns if they need to be changed.</p>
 </blockquote>
 
 <h3 id="you-can-also-check-out-laravel-for-more-information-on-the-official-website">You can also check out <a href="https://laravel.com/docs/8.x/releases">Laravel</a> for more information on the official website.</h3>
@@ -109,22 +94,14 @@ Here is an example code for defining a middleware</p>
 
 
   <div class="col-4 sm-width-full left mr-lg-4 mt-3">
-    <a class="no-underline border-top-thin py-1 block" href="/jekyll/update/2021/09/16/laravel-basics-2.html">
+    <a class="no-underline border-top-thin py-1 block" href="/jekyll/update/2021/09/27/laravel-basics-3.html">
       <span class="h5 bold text-accent">Previous</span>
-      <p class="bold h3 link-primary mb-1">Laravel Basics - 2</p>
-      <p>Part 2 Setting up a new project It is really easy and simple to set up a new project in...</p>
+      <p class="bold h3 link-primary mb-1">Laravel Basics - 3</p>
+      <p>Part 3 Routing What is routing? Before I answer that, What are routes in Laravel? Routes are basically something that...</p>
     </a>
   </div>
   
   
-  <div class="col-4 sm-width-full left mt-3">
-    <a class="no-underline border-top-thin py-1 block" href="/jekyll/update/2021/10/03/laravel-basics-4.html">
-      <span class="h5 bold text-accent">Next</span>
-      <p class="bold h3 link-primary mb-1">Laravel Basics - 4</p>
-      <p># Part 3 ## Controllers > They can controll and organize request handling logics that are happening in your routes....</p>
-    </a>
-  </div>
-
 
 </div>
 
