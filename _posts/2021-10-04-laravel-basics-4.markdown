@@ -9,9 +9,10 @@ categories: jekyll update
 ## Controllers
 > They can controll and organize request handling logics that are happening in your routes. You can also handle related requests under single class within containers. They can be found under `app/Http/Controllers/`. Controllers are also invokable. You can also generate an invokable controller by running this command with invokable tag `php artisan make:controller <Controller_Name> --invokable`. There is also resource controller which has CRUD classes defined for the users autimatically. All you have to do is use --resource with the command. You also have to make sure to call the model related to the requests you are defining in your controlller so that they are usable.
 
-This is an example controller class.
+- This is an example controller class.
+  
 
-` use App\Http\Controllers\UserController; `
+`use App\Http\Controllers\UserController;`
 
 `Route::get('/user/{id}', [UserController::class, 'show']);`
 

@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-10-05T00:24:38+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">Laravel Basics - 4</title><link href="/jekyll/update/2021/10/03/laravel-basics-4.html" rel="alternate" type="text/html" title="Laravel Basics - 4" /><published>2021-10-03T11:03:02+06:30</published><updated>2021-10-03T11:03:02+06:30</updated><id>/jekyll/update/2021/10/03/laravel-basics-4</id><content type="html" xml:base="/jekyll/update/2021/10/03/laravel-basics-4.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-10-05T00:30:44+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">Laravel Basics - 4</title><link href="/jekyll/update/2021/10/03/laravel-basics-4.html" rel="alternate" type="text/html" title="Laravel Basics - 4" /><published>2021-10-03T11:03:02+06:30</published><updated>2021-10-03T11:03:02+06:30</updated><id>/jekyll/update/2021/10/03/laravel-basics-4</id><content type="html" xml:base="/jekyll/update/2021/10/03/laravel-basics-4.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
 
 &lt;h2 id=&quot;controllers&quot;&gt;Controllers&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;They can controll and organize request handling logics that are happening in your routes. You can also handle related requests under single class within containers. They can be found under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;app/Http/Controllers/&lt;/code&gt;. Controllers are also invokable. You can also generate an invokable controller by running this command with invokable tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;php artisan make:controller &amp;lt;Controller_Name&amp;gt; --invokable&lt;/code&gt;. There is also resource controller which has CRUD classes defined for the users autimatically. All you have to do is use –resource with the command. You also have to make sure to call the model related to the requests you are defining in your controlller so that they are usable.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;This is an example controller class.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;This is an example controller class.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;` use App\Http\Controllers\UserController; `&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use App\Http\Controllers\UserController;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Route::get(&apos;/user/{id}&apos;, [UserController::class, &apos;show&apos;]);&lt;/code&gt;&lt;/p&gt;
 

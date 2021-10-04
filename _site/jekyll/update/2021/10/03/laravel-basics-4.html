@@ -67,9 +67,11 @@
   <p>They can controll and organize request handling logics that are happening in your routes. You can also handle related requests under single class within containers. They can be found under <code class="language-plaintext highlighter-rouge">app/Http/Controllers/</code>. Controllers are also invokable. You can also generate an invokable controller by running this command with invokable tag <code class="language-plaintext highlighter-rouge">php artisan make:controller &lt;Controller_Name&gt; --invokable</code>. There is also resource controller which has CRUD classes defined for the users autimatically. All you have to do is use –resource with the command. You also have to make sure to call the model related to the requests you are defining in your controlller so that they are usable.</p>
 </blockquote>
 
-<p>This is an example controller class.</p>
+<ul>
+  <li>This is an example controller class.</li>
+</ul>
 
-<p>` use App\Http\Controllers\UserController; `</p>
+<p><code class="language-plaintext highlighter-rouge">use App\Http\Controllers\UserController;</code></p>
 
 <p><code class="language-plaintext highlighter-rouge">Route::get('/user/{id}', [UserController::class, 'show']);</code></p>
 
