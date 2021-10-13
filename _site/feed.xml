@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-10-05T00:30:44+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">Laravel Basics - 4</title><link href="/jekyll/update/2021/10/03/laravel-basics-4.html" rel="alternate" type="text/html" title="Laravel Basics - 4" /><published>2021-10-03T11:03:02+06:30</published><updated>2021-10-03T11:03:02+06:30</updated><id>/jekyll/update/2021/10/03/laravel-basics-4</id><content type="html" xml:base="/jekyll/update/2021/10/03/laravel-basics-4.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-10-13T23:48:27+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">Laravel Basics - 5</title><link href="/jekyll/update/2021/10/12/laravel-basics-5.html" rel="alternate" type="text/html" title="Laravel Basics - 5" /><published>2021-10-12T14:16:05+06:30</published><updated>2021-10-12T14:16:05+06:30</updated><id>/jekyll/update/2021/10/12/laravel-basics-5</id><content type="html" xml:base="/jekyll/update/2021/10/12/laravel-basics-5.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
+
+&lt;h2 id=&quot;blade-templates&quot;&gt;Blade Templates&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Laravel has a really useful templating engine called blade. For starters, the blade files are stored in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;resources/view&lt;/code&gt; folder. An empty laravel project has a default page when you go to the localhost:8080. &lt;img src=&quot;/assets/images/default_page.png&quot; alt=&quot;default_page&quot; title=&quot;default-page&quot; /&gt;
+Blade templates use .blade.php as their extension. What you are seeing here is from a blade file called “welcome.blade.php”. Plain PHP codes can be used in blade template. You can also use routes and controllers to redirect the user to any blade pages you desire. Data can be displayed on the blade file by putting the variable inside { }.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This is an example route&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Route::get(&apos;/&apos;, function () {&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;return view(&apos;welcome&apos;, [&apos;name&apos; =&amp;gt; &apos;Samantha&apos;]);&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;});&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;using-your-own-blade-file&quot;&gt;Using your own blade file&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;For example, if you want to get rid of a default page and insert a page you made, you will have to first of all create database, migrate it, add model and controller file, add your own blade file under view, and lastly you can use routes to set your blade as default page. CSS can also be used to style your page as well.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;rendering-json&quot;&gt;Rendering JSON&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;You can also initialize a javascript variable by inserting JSON code to your view.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;if-statements&quot;&gt;If statements&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;if statments can be deployed usind &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@if&lt;/code&gt; , &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@elseif&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@else&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@endif&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Here is an example if statment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@if (count($records) === 1)
+    I have one record!
+@elseif (count($records) &amp;gt; 1)
+    I have multiple records!
+@else
+    I don&apos;t have any records!
+@endif
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;you-can-also-check-out-laravel-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://laravel.com/docs/8.x/releases&quot;&gt;Laravel&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry><entry><title type="html">Laravel Basics - 4</title><link href="/jekyll/update/2021/10/03/laravel-basics-4.html" rel="alternate" type="text/html" title="Laravel Basics - 4" /><published>2021-10-03T11:03:02+06:30</published><updated>2021-10-03T11:03:02+06:30</updated><id>/jekyll/update/2021/10/03/laravel-basics-4</id><content type="html" xml:base="/jekyll/update/2021/10/03/laravel-basics-4.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
 
 &lt;h2 id=&quot;controllers&quot;&gt;Controllers&lt;/h2&gt;
 &lt;blockquote&gt;
