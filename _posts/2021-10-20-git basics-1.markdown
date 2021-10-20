@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Git Basics - 1"
+date:   2021-10-20 13:00:05 +0630
+categories: jekyll update
+---
+# Part 1
+
+## What is Git?
+> Git is a version control system which is very very useful for everyone basically. It can handle projects from smaller ones to very big ones. Git can track your files very efficiently. People also tend to mistake git and github. They are not the same thing. As I mentioned above, git can save you a lot of time tracking your projects and github is a cloud-based hosting services that control your repositories. 
+
+## How to install git in your machine
+> There are few different ways to install git on a Mac but my favourite would be,
+- Open Terminal
+- Run `brew install git` (You will need to have Homebrew installed first)
+- Then varify by running `git version`
+> To install git on Windows
+- Download the latest version from [git installer][git installer] 
+- Follow instructions in Git Setup wizard 
+- Open command prompt
+- Then varify by running `git version`
+> To install Git on Linux
+- Open command prompt
+- For Debian and Ubuntu, run `sudo apt-get update` first then run `sudo apt-get install git-all`
+- For Fedora, run `sudo dnf install git-all`
+- Then varify by running `git version`
+
+## Initiate a repo
+> To create a new local repo in your current working directory, you have to run `git init`. If you run `ls -al` command, you will see a file name `.git`. You don't need to touch it but that is going to track everything you do in your directory. You won't be able to push, commit, merge, fetch without a .git file in your working directory and will get the error message `fatal: not a git repository (or any of the parent directories): .git`. 
+
+
+### You can also check out [git][git] for more information on the official website.
+![git_logo](/assets/images/git_logo.png "logo")
+
+[git installer]: https://gitforwindows.org/
+[git]: https://git-scm.com/
