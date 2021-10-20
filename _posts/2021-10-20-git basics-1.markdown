@@ -14,11 +14,13 @@ categories: jekyll update
 - Open Terminal
 - Run `brew install git` (You will need to have Homebrew installed first)
 - Then varify by running `git version`
+  
 > To install git on Windows
 - Download the latest version from [git installer][git installer] 
 - Follow instructions in Git Setup wizard 
 - Open command prompt
 - Then varify by running `git version`
+
 > To install Git on Linux
 - Open command prompt
 - For Debian and Ubuntu, run `sudo apt-get update` first then run `sudo apt-get install git-all`
