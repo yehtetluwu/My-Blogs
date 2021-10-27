@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Git Basics - 2"
+date:   2021-10-27 13:51:07 +0630
+categories: jekyll update
+---
+# Part 2
+
+## Cloning a repo
+> If you already created a repo in your github and you want to have it in your local machine and start working with it, you can clone it. You don't need to initialize with `git init` anymore if you clone. There are 3 different ways to clone a repo to your local machine. 
+- Through HTTPS protocol
+- Through SSH 
+- THrough Github CLI
+> HTTPS and SSH are most commonly used. To clone a repo, you just have to run `git clone <repo link from git hub>`. To clone with HTTPS, You will need to put in your github username and password. This method is universally accessible but will prompt you to put username and password time to time which can be annoying. And it's not as secure as SSH. To clone with SSH, you will need to create a ssh keys first. To create a ssh key, you have to run `ssh-keygen -t rsa -b 4096 -C “<your_email>”`, enter passphrase and save it in your preferred directory or press enter to save in default path. After that, run `eval $(ssh-agent -s)` and `ssh-add ~/.ssh/id_rsa` then copy the public key from that file and add it in your github settings. Lastly, add yourself as a github user with git config command in your terminal. It's a little bit of work to set up to use SSH but it's more secure. HTTPS is more recommended than SSH because of simplicity so it's up to you to decide which to use. 
+
+## Pushing your work to your github repo
+> If you want to push your work to your github repo, you need to make sure you have the hidden file called .git in your current dir. If you dont, you can use git clone first. Always check where you are or what files need to be added using `git status`. It will tell you what branch you are in, what files are not staged for commit and what files are untracked. Git status can tell you more than these but for now I wont include the other ones. After you check everything with git status, make sure you're not in your main because you dont want broken codes in you main. Then run `git add <filename>` and `git commit -m <"commit message">` and then you can run `git push` to push your code to your repo.
+
+
+### You can also check out [git][git] for more information on the official website.
+![git_logo](/assets/images/git_logo.png "logo")
+
+[git installer]: https://gitforwindows.org/
+[git]: https://git-scm.com/
