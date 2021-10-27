@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Git Basics - 2</title>
+  <meta name="description" content="Part 2">
+
+  
+  
+  <link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="canonical" href="/jekyll/update/2021/10/27/git-basics-2.html">
+  <link rel="alternate" type="application/rss+xml" title="My Blogs" href="/feed.xml">
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="border-bottom-thick px-2 clearfix">
+  <div class="left sm-width-full py-1 mt-1 mt-lg-0">
+    <a class="align-middle link-primary text-accent" href="/">
+      My Blogs
+    </a>
+  </div>
+  <div class="right sm-width-full">
+    <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
+      
+        
+      
+        
+        <li class="inline-block">
+          <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="/about/">
+            About Me
+          </a>
+        </li>
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+</header>
+
+
+    <div>
+      <article class="container px-2 mx-auto mb4" itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 class="h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">Git Basics - 2</h1>
+  <div class="col-4 sm-width-full mt-1 border-top-thin ">
+    <p class="mb-3 py-2 bold h4"><time datetime="2021-10-27T13:51:07+06:30" itemprop="datePublished">Oct 27, 2021</time></p>
+  </div>
+
+  <div class="prose" itemprop="articleBody">
+      <h1 id="part-2">Part 2</h1>
+
+<h2 id="cloning-a-repo">Cloning a repo</h2>
+<blockquote>
+  <p>If you already created a repo in your github and you want to have it in your local machine and start working with it, you can clone it. You don’t need to initialize with <code class="language-plaintext highlighter-rouge">git init</code> anymore if you clone. There are 3 different ways to clone a repo to your local machine.</p>
+  <ul>
+    <li>Through HTTPS protocol</li>
+    <li>Through SSH</li>
+    <li>THrough Github CLI</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>HTTPS and SSH are most commonly used. To clone a repo, you just have to run <code class="language-plaintext highlighter-rouge">git clone &lt;repo link from git hub&gt;</code>. To clone with HTTPS, You will need to put in your github username and password. This method is universally accessible but will prompt you to put username and password time to time which can be annoying. And it’s not as secure as SSH. To clone with SSH, you will need to create a ssh keys first. To create a ssh key, you have to run <code class="language-plaintext highlighter-rouge">ssh-keygen -t rsa -b 4096 -C “&lt;your_email&gt;”</code>, enter passphrase and save it in your preferred directory or press enter to save in default path. After that, run <code class="language-plaintext highlighter-rouge">eval $(ssh-agent -s)</code> and <code class="language-plaintext highlighter-rouge">ssh-add ~/.ssh/id_rsa</code> then copy the public key from that file and add it in your github settings. Lastly, add yourself as a github user with git config command in your terminal. It’s a little bit of work to set up to use SSH but it’s more secure. HTTPS is more recommended than SSH because of simplicity so it’s up to you to decide which to use.</p>
+</blockquote>
+
+<h2 id="pushing-your-work-to-your-github-repo">Pushing your work to your github repo</h2>
+<blockquote>
+  <p>If you want to push your work to your github repo, you need to make sure you have the hidden file called .git in your current dir. If you dont, you can use git clone first. Always check where you are or what files need to be added using <code class="language-plaintext highlighter-rouge">git status</code>. It will tell you what branch you are in, what files are not staged for commit and what files are untracked. Git status can tell you more than these but for now I wont include the other ones. After you check everything with git status, make sure you’re not in your main because you dont want broken codes in you main. Then run <code class="language-plaintext highlighter-rouge">git add &lt;filename&gt;</code> and <code class="language-plaintext highlighter-rouge">git commit -m &lt;"commit message"&gt;</code> and then you can run <code class="language-plaintext highlighter-rouge">git push</code> to push your code to your repo.</p>
+</blockquote>
+
+<h3 id="you-can-also-check-out-git-for-more-information-on-the-official-website">You can also check out <a href="https://git-scm.com/">git</a> for more information on the official website.</h3>
+<p><img src="/assets/images/git_logo.png" alt="git_logo" title="logo" /></p>
+
+
+  </div>
+
+</article>
+
+<div class="container mx-auto px-2 py-2 clearfix">
+  <!-- Use if you want to show previous and next for all posts. -->
+
+
+
+  <div class="col-4 sm-width-full left mr-lg-4 mt-3">
+    <a class="no-underline border-top-thin py-1 block" href="/jekyll/update/2021/10/20/git-basics-1.html">
+      <span class="h5 bold text-accent">Previous</span>
+      <p class="bold h3 link-primary mb-1">Git Basics - 1</p>
+      <p>Part 1 What is Git? Git is a version control system which is very very useful for everyone basically. It...</p>
+    </a>
+  </div>
+  
+  
+
+</div>
+
+    </div>
+
+    <div class="border-top-thin clearfix mt-2 mt-lg-4">
+  <div class="container mx-auto px-2">
+    <p class="col-8 sm-width-full left py-2 mb-0">This project is maintained by <a class="text-accent" href="https://github.com/yelu2021">yelu2021</a></p>
+    <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
+      <li class="inline-block mr-1">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="My Blogs">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </li>
+      <li class="inline-block">
+        <a class="github-button" href="https://github.com/yelu2021/" data-icon="octicon-star" data-count-href="yelu2021//stargazers" data-count-api="/repos/yelu2021/#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star yelu2021/ on GitHub">Star</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+  </body>
+
+</html>

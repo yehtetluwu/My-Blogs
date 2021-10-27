@@ -11,6 +11,7 @@ categories: jekyll update
 - Through HTTPS protocol
 - Through SSH 
 - THrough Github CLI
+
 > HTTPS and SSH are most commonly used. To clone a repo, you just have to run `git clone <repo link from git hub>`. To clone with HTTPS, You will need to put in your github username and password. This method is universally accessible but will prompt you to put username and password time to time which can be annoying. And it's not as secure as SSH. To clone with SSH, you will need to create a ssh keys first. To create a ssh key, you have to run `ssh-keygen -t rsa -b 4096 -C “<your_email>”`, enter passphrase and save it in your preferred directory or press enter to save in default path. After that, run `eval $(ssh-agent -s)` and `ssh-add ~/.ssh/id_rsa` then copy the public key from that file and add it in your github settings. Lastly, add yourself as a github user with git config command in your terminal. It's a little bit of work to set up to use SSH but it's more secure. HTTPS is more recommended than SSH because of simplicity so it's up to you to decide which to use. 
 
 ## Pushing your work to your github repo
