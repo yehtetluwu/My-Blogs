@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-10-27T13:57:43+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">Git Basics - 2</title><link href="/jekyll/update/2021/10/27/git-basics-2.html" rel="alternate" type="text/html" title="Git Basics - 2" /><published>2021-10-27T13:51:07+06:30</published><updated>2021-10-27T13:51:07+06:30</updated><id>/jekyll/update/2021/10/27/git-basics-2</id><content type="html" xml:base="/jekyll/update/2021/10/27/git-basics-2.html">&lt;h1 id=&quot;part-2&quot;&gt;Part 2&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-03T12:45:24+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">Git Basics - 3</title><link href="/jekyll/update/2021/11/02/git-basics-3.html" rel="alternate" type="text/html" title="Git Basics - 3" /><published>2021-11-02T13:38:13+06:30</published><updated>2021-11-02T13:38:13+06:30</updated><id>/jekyll/update/2021/11/02/git-basics-3</id><content type="html" xml:base="/jekyll/update/2021/11/02/git-basics-3.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
+
+&lt;h2 id=&quot;cloning-a-repo-continued-from-last-week&quot;&gt;Cloning a repo (Continued from last week)&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Cloning a repo with https requires users to put in their github username as well as the password. But the password is not your github password but your personal access token. Tokens can be made as much as you want win custom permissions. To create a personal access token, go to your github &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;settings &amp;gt; developer settings &amp;gt; personal access tokens &amp;gt; generate new token&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;checking-logs&quot;&gt;Checking logs&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;You can check your commits/branches/mergings by running the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git log --branch&lt;/code&gt;. It will show you a graph of your log so that you have an overview of how commits have merged and how git history was created. 
+Here is one example of how the graph looks like.
+&lt;img src=&quot;/assets/images/gitlog.png&quot; alt=&quot;git_log&quot; title=&quot;log&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;checking-what-changed-in-your-file&quot;&gt;Checking what changed in your file&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git diff &amp;lt;filename&amp;gt;&lt;/code&gt; lets you see changes you made before and after of a file together. It is pretty convenient because you can check what have changed in a file if someone makes a commit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;merging&quot;&gt;Merging&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Merging is when you have different branches on your repo and if you want everything to be on your main branch after the review, you can integrate the other branch to your main branch. On larger companies, when one or more developers start to merge onto main, 3 way merges occur. 
+This is an example of 3 way merge.
+&lt;img src=&quot;/assets/images/3waymerge.jpeg&quot; alt=&quot;3_way_merge&quot; title=&quot;3_way_merge&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;you-can-also-check-out-git-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://git-scm.com/&quot;&gt;git&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/git_logo.png&quot; alt=&quot;git_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry><entry><title type="html">Git Basics - 2</title><link href="/jekyll/update/2021/10/27/git-basics-2.html" rel="alternate" type="text/html" title="Git Basics - 2" /><published>2021-10-27T13:51:07+06:30</published><updated>2021-10-27T13:51:07+06:30</updated><id>/jekyll/update/2021/10/27/git-basics-2</id><content type="html" xml:base="/jekyll/update/2021/10/27/git-basics-2.html">&lt;h1 id=&quot;part-2&quot;&gt;Part 2&lt;/h1&gt;
 
 &lt;h2 id=&quot;cloning-a-repo&quot;&gt;Cloning a repo&lt;/h2&gt;
 &lt;blockquote&gt;

@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Git Basics - 3"
+date:   2021-11-02 13:38:13 +0630
+categories: jekyll update
+---
+# Part 3
+
+## Cloning a repo (Continued from last week)
+> Cloning a repo with https requires users to put in their github username as well as the password. But the password is not your github password but your personal access token. Tokens can be made as much as you want win custom permissions. To create a personal access token, go to your github `settings > developer settings > personal access tokens > generate new token`. 
+
+## Checking logs
+> You can check your commits/branches/mergings by running the command `git log --branch`. It will show you a graph of your log so that you have an overview of how commits have merged and how git history was created. 
+Here is one example of how the graph looks like.
+![git_log](/assets/images/gitlog.png "log")
+
+## Checking what changed in your file
+> `git diff <filename>` lets you see changes you made before and after of a file together. It is pretty convenient because you can check what have changed in a file if someone makes a commit. 
+
+## Merging 
+> Merging is when you have different branches on your repo and if you want everything to be on your main branch after the review, you can integrate the other branch to your main branch. On larger companies, when one or more developers start to merge onto main, 3 way merges occur. 
+This is an example of 3 way merge.
+![3_way_merge](/assets/images/3waymerge.jpeg "3_way_merge")
+
+### You can also check out [git][git] for more information on the official website.
+![git_logo](/assets/images/git_logo.png "logo")
+
+[git installer]: https://gitforwindows.org/
+[git]: https://git-scm.com/
