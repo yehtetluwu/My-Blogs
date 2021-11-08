@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-03T12:45:24+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">Git Basics - 3</title><link href="/jekyll/update/2021/11/02/git-basics-3.html" rel="alternate" type="text/html" title="Git Basics - 3" /><published>2021-11-02T13:38:13+06:30</published><updated>2021-11-02T13:38:13+06:30</updated><id>/jekyll/update/2021/11/02/git-basics-3</id><content type="html" xml:base="/jekyll/update/2021/11/02/git-basics-3.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-09T03:39:06+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">HTML Basics - 1</title><link href="/jekyll/update/2021/11/08/html-basics-1.html" rel="alternate" type="text/html" title="HTML Basics - 1" /><published>2021-11-08T13:07:08+06:30</published><updated>2021-11-08T13:07:08+06:30</updated><id>/jekyll/update/2021/11/08/html-basics-1</id><content type="html" xml:base="/jekyll/update/2021/11/08/html-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;what-is-html&quot;&gt;What is HTML?&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;What we are seeing on the screens of our laptops, phones, ipad, etc when we go to any websites are mostly written in HTML language. It was first invented by Tim Berners-Lee in 1993. Later html version 4 became official standard in 1999. And then we now have html5.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;the-declaration&quot;&gt;The declaration&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;When we write a html document, we have to start with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt;, which is basically informing the browser to expect a html document. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;!doctype&lt;/code&gt; is not case sensitive and so is the html after.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;the-default-template&quot;&gt;The default template&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The default template for html5 looks like this. Everything between the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt; &amp;lt;/head&amp;gt;&lt;/code&gt; tag is going to be the head of the document. What’s written in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt; is how it’s going to be called on the tab of your browser.  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;meta&amp;gt;&lt;/code&gt; tag can be removed nowadays and it’s not thta important anymore. Everything that goes into the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag will be what you see on your page. In the example below, you will see the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hello world&lt;/code&gt; words on your browser.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;Example html page&amp;lt;/title&amp;gt;
+    &amp;lt;meta name=&quot;description&quot; content=&quot;Our first page&quot;&amp;gt;
+    &amp;lt;meta name=&quot;keywords&quot; content=&quot;html tutorial template&quot;&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+    Hello world
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hello_world.png&quot; alt=&quot;hello_world&quot; title=&quot;hello-world&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-footer&quot;&gt;The footer&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Althought the footer tag wasn’t specified in the above example, it can added if you want to. It’s basically what you see at the bottom in most pages. Attached at the bottom is an example of how a footer can be designed to look pretty so it’s a pretty useful part. All the stuff will go under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;footer&amp;gt; &amp;lt;/footer&amp;gt;&lt;/code&gt; tag. 
+&lt;img src=&quot;/assets/images/example_footer.png&quot; alt=&quot;footer&quot; title=&quot;footer&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;you-can-also-check-out-html-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://html.com/&quot;&gt;html&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/html_logo.png&quot; alt=&quot;html_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">Git Basics - 3</title><link href="/jekyll/update/2021/11/02/git-basics-3.html" rel="alternate" type="text/html" title="Git Basics - 3" /><published>2021-11-02T13:38:13+06:30</published><updated>2021-11-02T13:38:13+06:30</updated><id>/jekyll/update/2021/11/02/git-basics-3</id><content type="html" xml:base="/jekyll/update/2021/11/02/git-basics-3.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
 
 &lt;h2 id=&quot;cloning-a-repo-continued-from-last-week&quot;&gt;Cloning a repo (Continued from last week)&lt;/h2&gt;
 &lt;blockquote&gt;
