@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-09T03:39:06+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">HTML Basics - 1</title><link href="/jekyll/update/2021/11/08/html-basics-1.html" rel="alternate" type="text/html" title="HTML Basics - 1" /><published>2021-11-08T13:07:08+06:30</published><updated>2021-11-08T13:07:08+06:30</updated><id>/jekyll/update/2021/11/08/html-basics-1</id><content type="html" xml:base="/jekyll/update/2021/11/08/html-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-14T21:22:32+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">HTML Basics - 2</title><link href="/jekyll/update/2021/11/14/html-basics-2.html" rel="alternate" type="text/html" title="HTML Basics - 2" /><published>2021-11-14T19:02:16+06:30</published><updated>2021-11-14T19:02:16+06:30</updated><id>/jekyll/update/2021/11/14/html-basics-2</id><content type="html" xml:base="/jekyll/update/2021/11/14/html-basics-2.html">&lt;h1 id=&quot;part-2&quot;&gt;Part 2&lt;/h1&gt;
+
+&lt;h2 id=&quot;more-common-tags&quot;&gt;More common tags&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;There are a lot of useful tags for creating beautiul pages and I will be going over the very common ones that everybody use. The first one is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; tag. It’s an header element and can go from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h1&lt;/code&gt; to. The difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;hearder&amp;gt;&lt;/code&gt; is that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;header&amp;gt;&lt;/code&gt; is for the document title and the metadata of the website while &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; tag is used for like headings for an article. You can have up to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; and the size of the heading will be smaller accordingly. 
+ &lt;img src=&quot;/assets/images/h1AndHeader.png&quot; alt=&quot;h1AndHeader&quot; title=&quot;h1AndHeader&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Another one is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; which is paragraph element. It is a block element and can be used to design paragraphs. 
+ &lt;img src=&quot;/assets/images/pTag.png&quot; alt=&quot;pTag&quot; title=&quot;pTag&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The next one we have is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tag. It is known as division tag. It is used when you want to use different styles to differnet parts of your webpage. For example - if you have two paragraphs in your page, you can use div to style your first paragraph and second paragraph differently. 
+ &lt;img src=&quot;/assets/images/divTag.png&quot; alt=&quot;divTag&quot; title=&quot;divTag&quot; /&gt;
+&lt;strong&gt;Note&lt;/strong&gt;
+You can also use in-line CSS to make different styles for above example without using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; but using CSS will make your html file look more simple and clean. I will be going over CSS in the nexxt blog.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;br&amp;gt;&lt;/code&gt; tag is simple. It is used to add a new line.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ol&amp;gt;&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ul&amp;gt;&lt;/code&gt;. They are &lt;em&gt;ordered List&lt;/em&gt; and &lt;em&gt;unordered List&lt;/em&gt;. If you want to make a bullet list, you can use unordered list and if you want to list with numbers, you can use ordered list. You can also style your bullet points with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;style=&quot;list-style-type:circle&quot;&lt;/code&gt; inside the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ul&amp;gt;&lt;/code&gt; tag. In order to create a list, you’ll also have to include &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;li&amp;gt;&lt;/code&gt; together with these tags.
+ &lt;img src=&quot;/assets/images/listsTag.png&quot; alt=&quot;listsTag&quot; title=&quot;listsTag&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;hr&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;b&amp;gt;&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;i&amp;gt;&lt;/code&gt; are also used to make your page look pretty. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; to add a horizontal line, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;b&amp;gt;&lt;/code&gt; to &lt;strong&gt;bold&lt;/strong&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;i&amp;gt;&lt;/code&gt; to &lt;em&gt;italicize&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tag is to add an image to your page. You can either add the link to an image or  path to the image you want to add from your files. 
+ &lt;img src=&quot;/assets/images/imgTag.png&quot; alt=&quot;imgTag&quot; title=&quot;imgTag&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;table&amp;gt;&lt;/code&gt; is just like the name says - to create table. You will have to use it together with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;tr&amp;gt; - table row&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;th&amp;gt; - table header&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;td&amp;gt; - table element&lt;/code&gt;. There are more but you don’t have to worry about it for now. And you will also need to add style to your table to make borders visible because the default doesn’t have any borders. 
+ &lt;img src=&quot;/assets/images/tableTag.png&quot; alt=&quot;tableTag&quot; title=&quot;tableTag&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;we-will-be-talking-about-css-next-week&quot;&gt;We will be talking about CSS next week!&lt;/h3&gt;
+
+&lt;h3 id=&quot;you-can-also-check-out-html-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://html.com/&quot;&gt;html&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/html_logo.png&quot; alt=&quot;html_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 2</summary></entry><entry><title type="html">HTML Basics - 1</title><link href="/jekyll/update/2021/11/08/html-basics-1.html" rel="alternate" type="text/html" title="HTML Basics - 1" /><published>2021-11-08T13:07:08+06:30</published><updated>2021-11-08T13:07:08+06:30</updated><id>/jekyll/update/2021/11/08/html-basics-1</id><content type="html" xml:base="/jekyll/update/2021/11/08/html-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
 
 &lt;h2 id=&quot;what-is-html&quot;&gt;What is HTML?&lt;/h2&gt;
 &lt;blockquote&gt;
