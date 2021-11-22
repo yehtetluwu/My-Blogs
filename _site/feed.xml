@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-14T21:22:32+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">HTML Basics - 2</title><link href="/jekyll/update/2021/11/14/html-basics-2.html" rel="alternate" type="text/html" title="HTML Basics - 2" /><published>2021-11-14T19:02:16+06:30</published><updated>2021-11-14T19:02:16+06:30</updated><id>/jekyll/update/2021/11/14/html-basics-2</id><content type="html" xml:base="/jekyll/update/2021/11/14/html-basics-2.html">&lt;h1 id=&quot;part-2&quot;&gt;Part 2&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-22T15:25:45+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">HTML Basics - 3</title><link href="/jekyll/update/2021/11/22/html-basics-3.html" rel="alternate" type="text/html" title="HTML Basics - 3" /><published>2021-11-22T13:16:38+06:30</published><updated>2021-11-22T13:16:38+06:30</updated><id>/jekyll/update/2021/11/22/html-basics-3</id><content type="html" xml:base="/jekyll/update/2021/11/22/html-basics-3.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
+
+&lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;WHat is CSS is? CSS is cascading style sheets. It’s used to design your webpage how ever you want. There are three types of CSS. Even though CSS is not part of HTML, I decided to talk about it because most beautiful websites you see on the internet are party written in CSS. I will be only going over how CSS works so that it will make us understand the relationship between HTML and CSS.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;types-of-css&quot;&gt;Types of CSS&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;There are three types of CSS to beautify your webpage.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Inline CSS&lt;/li&gt;
+    &lt;li&gt;Internal CSS&lt;/li&gt;
+    &lt;li&gt;External CSS&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;inline-css&quot;&gt;Inline CSS&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Inline CSS is using CSS inside the HTML tag. Inline CSS is good when you only want to make a little change to your tag or a specific tag without changing the other tags of the same name. Note that you can put as much attributes you want inside but if you only put one, you don’t need &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;;&lt;/code&gt;. Otherwise, you’ll need to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;;&lt;/code&gt; to seperate the attributes. Inline CSS also has highest priority and it will load the fastest. But keep in mind that, if there are a lot of inline CSS on your html page, it will take longer to load the entire site.
+&lt;img src=&quot;/assets/images/inline_CSS.png&quot; alt=&quot;inline_CSS&quot; title=&quot;inline_CSS&quot; /&gt;
+As you can see, there are two hello worlds in the same &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; tag and inline CSS allow us to design those separately. You can do this with internal CSS or external CSS as well but there are extra steps if you want to do it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;internal-css&quot;&gt;Internal CSS&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Internal CSS is using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; of your html page. Internal CSS has priority after inline CSS. I personally don’t use Internal CSS because I want to make my html document as simple as possible. 
+&lt;img src=&quot;/assets/images/internal_CSS.png&quot; alt=&quot;internal_CSS&quot; title=&quot;internal_CSS&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;external-css&quot;&gt;External CSS&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;To link an external CSS file to an html document, you must first say to your html document that you will be using CSS from this file. To do that, you will have to put &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;&amp;lt;Path_to_your_CSS_file&quot;&amp;gt;&lt;/code&gt; inside the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag. Then you can start designing your website.
+&lt;img src=&quot;/assets/images/external_CSS.png&quot; alt=&quot;external_CSS&quot; title=&quot;external_CSS&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;commenting&quot;&gt;Commenting&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;To comment in html, all you have to do is to start with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;--&lt;/code&gt;, comment what ever you want, then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--&amp;gt;&lt;/code&gt;.
+This is an example comment.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;&amp;lt;!-- BANNER --&amp;gt;&quot;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;you-can-also-check-out-html-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://html.com/&quot;&gt;html&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/html_logo.png&quot; alt=&quot;html_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry><entry><title type="html">HTML Basics - 2</title><link href="/jekyll/update/2021/11/14/html-basics-2.html" rel="alternate" type="text/html" title="HTML Basics - 2" /><published>2021-11-14T19:02:16+06:30</published><updated>2021-11-14T19:02:16+06:30</updated><id>/jekyll/update/2021/11/14/html-basics-2</id><content type="html" xml:base="/jekyll/update/2021/11/14/html-basics-2.html">&lt;h1 id=&quot;part-2&quot;&gt;Part 2&lt;/h1&gt;
 
 &lt;h2 id=&quot;more-common-tags&quot;&gt;More common tags&lt;/h2&gt;
 &lt;ol&gt;
@@ -320,43 +366,4 @@ Here is an example code for defining a middleware&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/images/default_page.png&quot; alt=&quot;default_page&quot; title=&quot;default-page&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;you-can-also-check-out-laravel-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://laravel.com/docs/8.x/releases&quot;&gt;Laravel&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 2</summary></entry><entry><title type="html">Laravel Basics - 1</title><link href="/jekyll/update/2021/09/03/laravel-basics-1.html" rel="alternate" type="text/html" title="Laravel Basics - 1" /><published>2021-09-03T11:39:47+06:30</published><updated>2021-09-03T11:39:47+06:30</updated><id>/jekyll/update/2021/09/03/laravel-basics-1</id><content type="html" xml:base="/jekyll/update/2021/09/03/laravel-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;what-is-laravel&quot;&gt;What is Laravel?&lt;/h2&gt;
-&lt;blockquote&gt;
-
-  &lt;p&gt;Laravel is a web framework made for developers with pretty sick, easy-to-understand tools. It is very useful and easy for developers to create a full stack web applications in a fast time period. It has so many cool functions like dependency injection, an expressive database abstraction layer, queues and scheduled jobs, unit and integration testing, and more.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;why-should-we-use-laravel&quot;&gt;Why should we use Laravel?&lt;/h2&gt;
-&lt;blockquote&gt;
-
-  &lt;p&gt;Laravel offers various tools and frameworks for you to write a web application. There are three main types of framworks that defines Laravel. It’s&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;A progressive framework where it grows together with the users.&lt;/li&gt;
-    &lt;li&gt;A scalable framework which uses PHP and allow fast-distributed cache systems like Redis, horizontal scaling.&lt;/li&gt;
-    &lt;li&gt;A community framework which makes Laravel incredibly developer firendly.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;how-to-install-laravel&quot;&gt;How to install Laravel&lt;/h2&gt;
-&lt;blockquote&gt;
-
-  &lt;p&gt;To install the latest Laravel on your local machine, you must&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;First install composer and PHP&lt;/li&gt;
-    &lt;li&gt;Then run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;composer create-project laravel/laravel &amp;lt;project_name&amp;gt;&lt;/code&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-
-  &lt;p&gt;And thats it!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;more-about-laravel&quot;&gt;More about laravel&lt;/h2&gt;
-&lt;blockquote&gt;
-
-  &lt;p&gt;Laravel has functions where you can set your project to automatically link with Git. You can use Laravel to create Javascript single page application and also Mobile Applciation. Cool isn’t it? But thats not all. There is alot more that Laravel can do to help your life easier.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;you-can-also-check-out-laravel-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://laravel.com/docs/8.x/releases&quot;&gt;Laravel&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 2</summary></entry></feed>
