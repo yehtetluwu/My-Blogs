@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-12-02T13:38:52+06:30</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">Docker Basics - 1</title><link href="/jekyll/update/2021/12/02/docker-basics-1.html" rel="alternate" type="text/html" title="Docker Basics - 1" /><published>2021-12-02T12:05:17+06:30</published><updated>2021-12-02T12:05:17+06:30</updated><id>/jekyll/update/2021/12/02/docker-basics-1</id><content type="html" xml:base="/jekyll/update/2021/12/02/docker-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-02-05T13:31:14-08:00</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">CSS Basics - 1</title><link href="/jekyll/update/2022/02/04/CSS-basics-1.html" rel="alternate" type="text/html" title="CSS Basics - 1" /><published>2022-02-04T21:45:17-08:00</published><updated>2022-02-04T21:45:17-08:00</updated><id>/jekyll/update/2022/02/04/CSS-basics-1</id><content type="html" xml:base="/jekyll/update/2022/02/04/CSS-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;what-is-css&quot;&gt;What is CSS?&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;CSS is called Cascading Style Sheets. If HTML is used to structure the content of a webpage, then CSS is used to add style to that. You could also add CSS in html instead of making HTML and CSS two different files which I wrote in previous blogs. There is something called SCSS which is an advanced version of CSS where you can use variables to shorten the amount of code. SCSS also offers a lot of features that CSS doesn’t have but we’ll talk about those in the future.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;linking-html-with-external-css-file&quot;&gt;Linking HTML with External CSS file&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;To use external CSS in your html file, first you will have to put &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;link href=&quot;path of CSS file&quot; rel=&quot;stylesheet&quot;&amp;gt;&lt;/code&gt; between your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;understanding-the-anatomy&quot;&gt;Understanding the Anatomy&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;CSS has something called “rules” or “rulessets” which has two parts. They are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Selector&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Declaration&lt;/code&gt;. Selector is the name of the HTML element which you are going to style and Declaration is how you want to style that element’s property. Inside the declaration, we have property and property value.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;first-example&quot;&gt;First Example&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Let’s modify a paragraph using CSS. In this example, we will change the text color to pink. We have this simple unstyled heading paragraph here.
+&lt;img src=&quot;/assets/images/plainHTML.png&quot; alt=&quot;plainHTML&quot; title=&quot;plain HTML&quot; /&gt;
+This is how it looks like after we have applied CSS to the paragraph &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tag.  &lt;br /&gt;
+&lt;img src=&quot;/assets/images/HTML_with_CSS.png&quot; alt=&quot;HTML_with_CSS&quot; title=&quot;HTML with CSS&quot; /&gt; &lt;br /&gt;
+And the code for CSS looks like this.&lt;br /&gt;
+&lt;img src=&quot;/assets/images/CSS_code.png&quot; alt=&quot;CSS_code&quot; title=&quot;CSS code&quot; /&gt;&lt;br /&gt;
+In this case, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;p&lt;/code&gt; is the selector and everything we put in the declaration will change how the paragraph looks like. In the declaration, we have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;color&lt;/code&gt; which will modify the color of the text. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pink&lt;/code&gt; defines the color you want to change.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;selecting-multiple-elements&quot;&gt;Selecting multiple elements&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In this example, we will be modifying multiple elements under one rule. This will save you a lot of time and code to write but of course if you want them to have different styles, you will have to put each of them under differnet rules.&lt;br /&gt;
+&lt;img src=&quot;/assets/images/multiple_elements.png&quot; alt=&quot;multiple_elements&quot; title=&quot;Mutiple Elements&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;you-can-also-check-out-mdn-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics&quot;&gt;MDN&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/css_logo.png&quot; alt=&quot;css_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">Docker Basics - 1</title><link href="/jekyll/update/2021/12/01/docker-basics-1.html" rel="alternate" type="text/html" title="Docker Basics - 1" /><published>2021-12-01T21:35:17-08:00</published><updated>2021-12-01T21:35:17-08:00</updated><id>/jekyll/update/2021/12/01/docker-basics-1</id><content type="html" xml:base="/jekyll/update/2021/12/01/docker-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
 
 &lt;h2 id=&quot;what-is-docker&quot;&gt;What is Docker?&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -37,7 +72,7 @@ To create a container from a dockerfile, you need to run &lt;code class=&quot;la
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;you-can-also-check-out-docker-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://docs.docker.com/&quot;&gt;docker&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/docker_logo.png&quot; alt=&quot;docker_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">HTML Basics - 3</title><link href="/jekyll/update/2021/11/22/html-basics-3.html" rel="alternate" type="text/html" title="HTML Basics - 3" /><published>2021-11-22T13:16:38+06:30</published><updated>2021-11-22T13:16:38+06:30</updated><id>/jekyll/update/2021/11/22/html-basics-3</id><content type="html" xml:base="/jekyll/update/2021/11/22/html-basics-3.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/docker_logo.png&quot; alt=&quot;docker_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">HTML Basics - 3</title><link href="/jekyll/update/2021/11/21/html-basics-3.html" rel="alternate" type="text/html" title="HTML Basics - 3" /><published>2021-11-21T22:46:38-08:00</published><updated>2021-11-21T22:46:38-08:00</updated><id>/jekyll/update/2021/11/21/html-basics-3</id><content type="html" xml:base="/jekyll/update/2021/11/21/html-basics-3.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
 
 &lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -83,7 +118,7 @@ This is an example comment.
 &lt;h3 id=&quot;you-can-also-check-out-html-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://html.com/&quot;&gt;html&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/html_logo.png&quot; alt=&quot;html_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry><entry><title type="html">HTML Basics - 2</title><link href="/jekyll/update/2021/11/14/html-basics-2.html" rel="alternate" type="text/html" title="HTML Basics - 2" /><published>2021-11-14T19:02:16+06:30</published><updated>2021-11-14T19:02:16+06:30</updated><id>/jekyll/update/2021/11/14/html-basics-2</id><content type="html" xml:base="/jekyll/update/2021/11/14/html-basics-2.html">&lt;h1 id=&quot;part-2&quot;&gt;Part 2&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/html_logo.png&quot; alt=&quot;html_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry><entry><title type="html">HTML Basics - 2</title><link href="/jekyll/update/2021/11/14/html-basics-2.html" rel="alternate" type="text/html" title="HTML Basics - 2" /><published>2021-11-14T04:32:16-08:00</published><updated>2021-11-14T04:32:16-08:00</updated><id>/jekyll/update/2021/11/14/html-basics-2</id><content type="html" xml:base="/jekyll/update/2021/11/14/html-basics-2.html">&lt;h1 id=&quot;part-2&quot;&gt;Part 2&lt;/h1&gt;
 
 &lt;h2 id=&quot;more-common-tags&quot;&gt;More common tags&lt;/h2&gt;
 &lt;ol&gt;
@@ -126,7 +161,7 @@ You can also use in-line CSS to make different styles for above example without 
 &lt;h3 id=&quot;you-can-also-check-out-html-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://html.com/&quot;&gt;html&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/html_logo.png&quot; alt=&quot;html_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 2</summary></entry><entry><title type="html">HTML Basics - 1</title><link href="/jekyll/update/2021/11/08/html-basics-1.html" rel="alternate" type="text/html" title="HTML Basics - 1" /><published>2021-11-08T13:07:08+06:30</published><updated>2021-11-08T13:07:08+06:30</updated><id>/jekyll/update/2021/11/08/html-basics-1</id><content type="html" xml:base="/jekyll/update/2021/11/08/html-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/html_logo.png&quot; alt=&quot;html_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 2</summary></entry><entry><title type="html">HTML Basics - 1</title><link href="/jekyll/update/2021/11/07/html-basics-1.html" rel="alternate" type="text/html" title="HTML Basics - 1" /><published>2021-11-07T22:37:08-08:00</published><updated>2021-11-07T22:37:08-08:00</updated><id>/jekyll/update/2021/11/07/html-basics-1</id><content type="html" xml:base="/jekyll/update/2021/11/07/html-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
 
 &lt;h2 id=&quot;what-is-html&quot;&gt;What is HTML?&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -169,7 +204,7 @@ You can also use in-line CSS to make different styles for above example without 
 &lt;h3 id=&quot;you-can-also-check-out-html-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://html.com/&quot;&gt;html&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/html_logo.png&quot; alt=&quot;html_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">Git Basics - 3</title><link href="/jekyll/update/2021/11/02/git-basics-3.html" rel="alternate" type="text/html" title="Git Basics - 3" /><published>2021-11-02T13:38:13+06:30</published><updated>2021-11-02T13:38:13+06:30</updated><id>/jekyll/update/2021/11/02/git-basics-3</id><content type="html" xml:base="/jekyll/update/2021/11/02/git-basics-3.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/html_logo.png&quot; alt=&quot;html_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">Git Basics - 3</title><link href="/jekyll/update/2021/11/02/git-basics-3.html" rel="alternate" type="text/html" title="Git Basics - 3" /><published>2021-11-02T00:08:13-07:00</published><updated>2021-11-02T00:08:13-07:00</updated><id>/jekyll/update/2021/11/02/git-basics-3</id><content type="html" xml:base="/jekyll/update/2021/11/02/git-basics-3.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
 
 &lt;h2 id=&quot;cloning-a-repo-continued-from-last-week&quot;&gt;Cloning a repo (Continued from last week)&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -196,7 +231,7 @@ This is an example of 3 way merge.
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;you-can-also-check-out-git-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://git-scm.com/&quot;&gt;git&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/git_logo.png&quot; alt=&quot;git_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry><entry><title type="html">Git Basics - 2</title><link href="/jekyll/update/2021/10/27/git-basics-2.html" rel="alternate" type="text/html" title="Git Basics - 2" /><published>2021-10-27T13:51:07+06:30</published><updated>2021-10-27T13:51:07+06:30</updated><id>/jekyll/update/2021/10/27/git-basics-2</id><content type="html" xml:base="/jekyll/update/2021/10/27/git-basics-2.html">&lt;h1 id=&quot;part-2&quot;&gt;Part 2&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/git_logo.png&quot; alt=&quot;git_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry><entry><title type="html">Git Basics - 2</title><link href="/jekyll/update/2021/10/27/git-basics-2.html" rel="alternate" type="text/html" title="Git Basics - 2" /><published>2021-10-27T00:21:07-07:00</published><updated>2021-10-27T00:21:07-07:00</updated><id>/jekyll/update/2021/10/27/git-basics-2</id><content type="html" xml:base="/jekyll/update/2021/10/27/git-basics-2.html">&lt;h1 id=&quot;part-2&quot;&gt;Part 2&lt;/h1&gt;
 
 &lt;h2 id=&quot;cloning-a-repo&quot;&gt;Cloning a repo&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -218,7 +253,7 @@ This is an example of 3 way merge.
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;you-can-also-check-out-git-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://git-scm.com/&quot;&gt;git&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/git_logo.png&quot; alt=&quot;git_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 2</summary></entry><entry><title type="html">Git Basics - 1</title><link href="/jekyll/update/2021/10/20/git-basics-1.html" rel="alternate" type="text/html" title="Git Basics - 1" /><published>2021-10-20T13:00:05+06:30</published><updated>2021-10-20T13:00:05+06:30</updated><id>/jekyll/update/2021/10/20/git-basics-1</id><content type="html" xml:base="/jekyll/update/2021/10/20/git-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/git_logo.png&quot; alt=&quot;git_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 2</summary></entry><entry><title type="html">Git Basics - 1</title><link href="/jekyll/update/2021/10/19/git-basics-1.html" rel="alternate" type="text/html" title="Git Basics - 1" /><published>2021-10-19T23:30:05-07:00</published><updated>2021-10-19T23:30:05-07:00</updated><id>/jekyll/update/2021/10/19/git-basics-1</id><content type="html" xml:base="/jekyll/update/2021/10/19/git-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
 
 &lt;h2 id=&quot;what-is-git&quot;&gt;What is Git?&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -261,7 +296,7 @@ This is an example of 3 way merge.
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;you-can-also-check-out-git-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://git-scm.com/&quot;&gt;git&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/git_logo.png&quot; alt=&quot;git_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">Laravel Basics - 5</title><link href="/jekyll/update/2021/10/12/laravel-basics-5.html" rel="alternate" type="text/html" title="Laravel Basics - 5" /><published>2021-10-12T14:16:05+06:30</published><updated>2021-10-12T14:16:05+06:30</updated><id>/jekyll/update/2021/10/12/laravel-basics-5</id><content type="html" xml:base="/jekyll/update/2021/10/12/laravel-basics-5.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/git_logo.png&quot; alt=&quot;git_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">Laravel Basics - 5</title><link href="/jekyll/update/2021/10/12/laravel-basics-5.html" rel="alternate" type="text/html" title="Laravel Basics - 5" /><published>2021-10-12T00:46:05-07:00</published><updated>2021-10-12T00:46:05-07:00</updated><id>/jekyll/update/2021/10/12/laravel-basics-5</id><content type="html" xml:base="/jekyll/update/2021/10/12/laravel-basics-5.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
 
 &lt;h2 id=&quot;blade-templates&quot;&gt;Blade Templates&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -308,7 +343,7 @@ Blade templates use .blade.php as their extension. What you are seeing here is f
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;you-can-also-check-out-laravel-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://laravel.com/docs/8.x/releases&quot;&gt;Laravel&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry><entry><title type="html">Laravel Basics - 4</title><link href="/jekyll/update/2021/10/03/laravel-basics-4.html" rel="alternate" type="text/html" title="Laravel Basics - 4" /><published>2021-10-03T11:03:02+06:30</published><updated>2021-10-03T11:03:02+06:30</updated><id>/jekyll/update/2021/10/03/laravel-basics-4</id><content type="html" xml:base="/jekyll/update/2021/10/03/laravel-basics-4.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry><entry><title type="html">Laravel Basics - 4</title><link href="/jekyll/update/2021/10/02/laravel-basics-4.html" rel="alternate" type="text/html" title="Laravel Basics - 4" /><published>2021-10-02T21:33:02-07:00</published><updated>2021-10-02T21:33:02-07:00</updated><id>/jekyll/update/2021/10/02/laravel-basics-4</id><content type="html" xml:base="/jekyll/update/2021/10/02/laravel-basics-4.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
 
 &lt;h2 id=&quot;controllers&quot;&gt;Controllers&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -328,42 +363,6 @@ Blade templates use .blade.php as their extension. What you are seeing here is f
   &lt;p&gt;Since this was mentioned above, what are models?&lt;/p&gt;
 
   &lt;p&gt;Laravel uses Eloquent which is an object-relational mapper that can interact with the databases. When you use Eloquent, each database table has corresponding Models so that it can interact with the table. To create a model, run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;php artisan make:model &amp;lt;model name&amp;gt;&lt;/code&gt;. You can also add –migration option which creates and modifies database tables and columns if they need to be changed.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;you-can-also-check-out-laravel-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://laravel.com/docs/8.x/releases&quot;&gt;Laravel&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry><entry><title type="html">Laravel Basics - 3</title><link href="/jekyll/update/2021/09/27/laravel-basics-3.html" rel="alternate" type="text/html" title="Laravel Basics - 3" /><published>2021-09-27T12:20:47+06:30</published><updated>2021-09-27T12:20:47+06:30</updated><id>/jekyll/update/2021/09/27/laravel-basics-3</id><content type="html" xml:base="/jekyll/update/2021/09/27/laravel-basics-3.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
-
-&lt;h2 id=&quot;routing&quot;&gt;Routing&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;What is routing?&lt;/p&gt;
-
-  &lt;p&gt;Before I answer that, What are routes in Laravel? Routes are basically something that will link you to the controllers and also let the users to jump through specified paths/query strings you made for you web app. It can be seen under routes folder. Most of the times, you have to define the routes in the &lt;strong&gt;web.php&lt;/strong&gt; file.&lt;/p&gt;
-
-  &lt;p&gt;It accepts http verbs like &lt;strong&gt;get, post, put, patch, delete and options&lt;/strong&gt;. But any html forms with &lt;em&gt;post&lt;/em&gt;, &lt;em&gt;put&lt;/em&gt;, &lt;em&gt;patch&lt;/em&gt;, &lt;em&gt;delete&lt;/em&gt; are required to include CSRF token filed. You can also redirect if you are defining a route that redirects to&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;This is an example of a defined route.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use Illuminate\Support\Facades\Route;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Route::get(&apos;/greeting&apos;, function () {&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;return &apos;Hello World&apos;; });&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;middleware&quot;&gt;Middleware&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Middleware is a mechanism for inspecting and filtering HTTP requests that goes into your application. Laravel has this awesome middleware which checks if the user is authenticated or not. If the user is not authenticated, it will take you to the log in screen and if the user is authenticated, it will allow futher requests into the application. And of course middlewares are not only for authentication. You can also write a log with it! 
-Here is an example code for defining a middleware&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;php artisan make:middleware EnsureTokenIsValid&lt;/code&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;csrf-protection&quot;&gt;CSRF Protection&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;CSRF has been mentioned above but what is it? It is called Cross-site request forgeries and is a type of malicious exploit where suspicious commands are being run from an authenticated user.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;you-can-also-check-out-laravel-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://laravel.com/docs/8.x/releases&quot;&gt;Laravel&lt;/a&gt; for more information on the official website.&lt;/h3&gt;

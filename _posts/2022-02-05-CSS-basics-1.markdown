@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "CSS Basics - 1"
+date:   2022-02-05 12:15:17 +0630
+categories: jekyll update
+---
+# Part 1
+
+## What is CSS? 
+> CSS is called Cascading Style Sheets. If HTML is used to structure the content of a webpage, then CSS is used to add style to that. You could also add CSS in html instead of making HTML and CSS two different files which I wrote in previous blogs. There is something called SCSS which is an advanced version of CSS where you can use variables to shorten the amount of code. SCSS also offers a lot of features that CSS doesn't have but we'll talk about those in the future. 
+
+## Linking HTML with External CSS file
+> To use external CSS in your html file, first you will have to put `<link href="path of CSS file" rel="stylesheet">` between your `<head>` tags. 
+
+## Understanding the Anatomy
+> CSS has something called "rules" or "rulessets" which has two parts. They are `Selector` and `Declaration`. Selector is the name of the HTML element which you are going to style and Declaration is how you want to style that element's property. Inside the declaration, we have property and property value. 
+
+## First Example
+> Let's modify a paragraph using CSS. In this example, we will change the text color to pink. We have this simple unstyled heading paragraph here.
+![plainHTML](/assets/images/plainHTML.png "plain HTML")
+This is how it looks like after we have applied CSS to the paragraph `<p>` tag.    
+![HTML_with_CSS](/assets/images/HTML_with_CSS.png "HTML with CSS")   
+> And the code for CSS looks like this.  
+![CSS_code](/assets/images/CSS_code.png "CSS code")  
+> In this case, the `p` is the selector and everything we put in the declaration will change how the paragraph looks like. In the declaration, we have `color` which will modify the color of the text. `pink` defines the color you want to change.
+
+## Selecting multiple elements
+> In this example, we will be modifying multiple elements under one rule. This will save you a lot of time and code to write but of course if you want them to have different styles, you will have to put each of them under differnet rules.  
+![multiple_elements](/assets/images/multiple_elements.png "Mutiple Elements")  
+
+
+### You can also check out [MDN][MDN] for more information on the official website.
+![css_logo](/assets/images/css_logo.png "logo")
+
+
+[MDN]: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
