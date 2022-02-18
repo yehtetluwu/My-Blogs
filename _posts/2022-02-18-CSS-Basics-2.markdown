@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "CSS Basics - 1"
+date:   2022-02-18 14:12:19 +0630
+categories: jekyll update
+---
+# Part 1
+
+## More CSS declarations 
+> I will be covering more useful CSS declarations in this blog. 
+
+## Commenting in CSS
+> To comment in CSS, all you have to do is put the comment between `/*` and `*/`. They also work for multi-line comments.  
+![CSS_comment](/assets/images/CSS_comment.png "CSS comment") 
+
+## Colors
+> You can define CSS colors in many different ways. You can use RBG, RGBA, HEX, HSL, HSLA and predefind color names. For color names, CSS has a total of 140 standard color names. You can apply these colors to anywhere you want, for example, text color, background color and also border colors. You could also use colors for text-shadows but I wont be mentioning about them in this blog. Please refer to the *CSS basics 1* blog for the examples for CSS colors 
+
+## Backgrounds
+> You use this when you want to add a background effects to your elements. I will be talking about the following 5 properties. 
+1. background-color
+    1. You can use this if you just want to add a color to the background of the element.  
+1. background-image
+    1. If you want to add a background image, you can use this property. But you will have to specify the path of the image you want in your background. For example, the command would be something like `background-image: url('<path_of_image>');`
+1. background-repeat
+    1. Let's say you added a background image and for some reasons, say, it was repeated because of wrong image size, then you can use background-repeat to fix it. If it was repeated horizontally, then you can use `background-repeat: repeat-x;` to fix it. There are also `repeat-y`, `no-repeat`, `inherit`, etc. 
+1. background-attachment
+    1. You can make your background image sroll with `background-attachment: scroll` or make if stick using `background-image: fized;`. 
+1. background-position
+    1. If you want to move your background around, you can use this property. For example, you could *center* your background image, move it to *right*/*left* with `background position: left top;` or `background-position: right-bottom`.
+
+## Borders
+> You can style your borders in many ways. There are also different types of borders where you can specify with `border-style:`. You can add colors to your border, change thickness, change color or make rounded borders and many more.
+![css_borders](/assets/images/css_borders.png "CSS borders")
+
+
+### You can also check out [MDN][MDN] for more information on the official website.
+![css_logo](/assets/images/css_logo.png "logo")
+
+
+[MDN]: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
