@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CSS Basics - 1"
+title:  "CSS Basics - 2"
 date:   2022-02-18 14:12:19 +0630
 categories: jekyll update
 ---

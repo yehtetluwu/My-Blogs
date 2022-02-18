@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-02-05T13:31:14-08:00</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">CSS Basics - 1</title><link href="/jekyll/update/2022/02/04/CSS-basics-1.html" rel="alternate" type="text/html" title="CSS Basics - 1" /><published>2022-02-04T21:45:17-08:00</published><updated>2022-02-04T21:45:17-08:00</updated><id>/jekyll/update/2022/02/04/CSS-basics-1</id><content type="html" xml:base="/jekyll/update/2022/02/04/CSS-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-02-18T15:23:47-08:00</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">CSS Basics - 2</title><link href="/jekyll/update/2022/02/17/CSS-Basics-2.html" rel="alternate" type="text/html" title="CSS Basics - 2" /><published>2022-02-17T23:42:19-08:00</published><updated>2022-02-17T23:42:19-08:00</updated><id>/jekyll/update/2022/02/17/CSS-Basics-2</id><content type="html" xml:base="/jekyll/update/2022/02/17/CSS-Basics-2.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;more-css-declarations&quot;&gt;More CSS declarations&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;I will be covering more useful CSS declarations in this blog.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;commenting-in-css&quot;&gt;Commenting in CSS&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;To comment in CSS, all you have to do is put the comment between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/*&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*/&lt;/code&gt;. They also work for multi-line comments.&lt;br /&gt;
+&lt;img src=&quot;/assets/images/CSS_comment.png&quot; alt=&quot;CSS_comment&quot; title=&quot;CSS comment&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;colors&quot;&gt;Colors&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;You can define CSS colors in many different ways. You can use RBG, RGBA, HEX, HSL, HSLA and predefind color names. For color names, CSS has a total of 140 standard color names. You can apply these colors to anywhere you want, for example, text color, background color and also border colors. You could also use colors for text-shadows but I wont be mentioning about them in this blog. Please refer to the &lt;em&gt;CSS basics 1&lt;/em&gt; blog for the examples for CSS colors&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;backgrounds&quot;&gt;Backgrounds&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;You use this when you want to add a background effects to your elements. I will be talking about the following 5 properties.&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;background-color
+      &lt;ol&gt;
+        &lt;li&gt;You can use this if you just want to add a color to the background of the element.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;background-image
+      &lt;ol&gt;
+        &lt;li&gt;If you want to add a background image, you can use this property. But you will have to specify the path of the image you want in your background. For example, the command would be something like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background-image: url(&apos;&amp;lt;path_of_image&amp;gt;&apos;);&lt;/code&gt;&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;background-repeat
+      &lt;ol&gt;
+        &lt;li&gt;Let’s say you added a background image and for some reasons, say, it was repeated because of wrong image size, then you can use background-repeat to fix it. If it was repeated horizontally, then you can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background-repeat: repeat-x;&lt;/code&gt; to fix it. There are also &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repeat-y&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;no-repeat&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;inherit&lt;/code&gt;, etc.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;background-attachment
+      &lt;ol&gt;
+        &lt;li&gt;You can make your background image sroll with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background-attachment: scroll&lt;/code&gt; or make if stick using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background-image: fized;&lt;/code&gt;.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;background-position
+      &lt;ol&gt;
+        &lt;li&gt;If you want to move your background around, you can use this property. For example, you could &lt;em&gt;center&lt;/em&gt; your background image, move it to &lt;em&gt;right&lt;/em&gt;/&lt;em&gt;left&lt;/em&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background position: left top;&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background-position: right-bottom&lt;/code&gt;.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;borders&quot;&gt;Borders&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;You can style your borders in many ways. There are also different types of borders where you can specify with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;border-style:&lt;/code&gt;. You can add colors to your border, change thickness, change color or make rounded borders and many more.
+&lt;img src=&quot;/assets/images/css_borders.png&quot; alt=&quot;css_borders&quot; title=&quot;CSS borders&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;you-can-also-check-out-mdn-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics&quot;&gt;MDN&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/css_logo.png&quot; alt=&quot;css_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">CSS Basics - 1</title><link href="/jekyll/update/2022/02/04/CSS-basics-1.html" rel="alternate" type="text/html" title="CSS Basics - 1" /><published>2022-02-04T21:45:17-08:00</published><updated>2022-02-04T21:45:17-08:00</updated><id>/jekyll/update/2022/02/04/CSS-basics-1</id><content type="html" xml:base="/jekyll/update/2022/02/04/CSS-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
 
 &lt;h2 id=&quot;what-is-css&quot;&gt;What is CSS?&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -341,29 +398,6 @@ Blade templates use .blade.php as their extension. What you are seeing here is f
     I don&apos;t have any records!
 @endif
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;you-can-also-check-out-laravel-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://laravel.com/docs/8.x/releases&quot;&gt;Laravel&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry><entry><title type="html">Laravel Basics - 4</title><link href="/jekyll/update/2021/10/02/laravel-basics-4.html" rel="alternate" type="text/html" title="Laravel Basics - 4" /><published>2021-10-02T21:33:02-07:00</published><updated>2021-10-02T21:33:02-07:00</updated><id>/jekyll/update/2021/10/02/laravel-basics-4</id><content type="html" xml:base="/jekyll/update/2021/10/02/laravel-basics-4.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
-
-&lt;h2 id=&quot;controllers&quot;&gt;Controllers&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;They can controll and organize request handling logics that are happening in your routes. You can also handle related requests under single class within containers. They can be found under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;app/Http/Controllers/&lt;/code&gt;. Controllers are also invokable. You can also generate an invokable controller by running this command with invokable tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;php artisan make:controller &amp;lt;Controller_Name&amp;gt; --invokable&lt;/code&gt;. There is also resource controller which has CRUD classes defined for the users autimatically. All you have to do is use –resource with the command. You also have to make sure to call the model related to the requests you are defining in your controlller so that they are usable.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;This is an example controller class.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use App\Http\Controllers\UserController;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Route::get(&apos;/user/{id}&apos;, [UserController::class, &apos;show&apos;]);&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;models&quot;&gt;Models&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Since this was mentioned above, what are models?&lt;/p&gt;
-
-  &lt;p&gt;Laravel uses Eloquent which is an object-relational mapper that can interact with the databases. When you use Eloquent, each database table has corresponding Models so that it can interact with the table. To create a model, run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;php artisan make:model &amp;lt;model name&amp;gt;&lt;/code&gt;. You can also add –migration option which creates and modifies database tables and columns if they need to be changed.&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;you-can-also-check-out-laravel-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://laravel.com/docs/8.x/releases&quot;&gt;Laravel&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry></feed>
