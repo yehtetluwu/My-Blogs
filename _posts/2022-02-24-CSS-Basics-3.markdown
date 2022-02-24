@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "CSS Basics - 3"
+date:   2022-02-24 14:33:21 +0630
+categories: jekyll update
+---
+# Part 3
+
+## Margins 
+> Let's say you want to use a `h2` heading but you also want to move your heading to a little more to the right side. Then you will have to use `margin-left: 100px;`. This will mmove your heading to to your right by 100 pixels. 
+![CSS_margins](/assets/images/CSS_margins.png "CSS margin") 
+In the above example, there are 4 declarations such as margin-left/right/top/bottom. You could also make it short by wirting it in shorthand notation which is `margin: 100px 100px 100px 100px;`. The order will be top, right, bottom and left. But if there is only two like `margin: 100px 100px;`, then the first 100 is for top, bottom and the second one is for left, right. If there is only one value, then all four sides will be the same as that value. There is also something called `margins: auto;` where the element will take up certain pixel size inside the container it is in and the leftover pixels will be equally split up between left and right. 
+
+## Padding
+> To differentiate between a margin and a padding, all you need to remember is that margin is the space outside the border and padding is the space between the border and the content. Below here is the image to make things easier to see. 
+![CSS_padding](/assets/images/CSS_padding.png "CSS padding") 
+Padding has the same declaration values as CSS margins and also shorthand notation. 
+
+## Height/Width
+> Say, you want to make your picture wider or taller, then you can use these properties. The usage would be `width: 100px;`. You can set height and width to any combos you want. You could even use auto which is also the default. You can set up the width to certain amount so that it doesnt go over that value. To do that, you have to say `max-width: 500px;`. 
+
+## Text
+> Since we have already covered about text color and background colors in part 1, we will talk about text decorations, alignments, shadows, and other elements here. 
+1. Text alignment
+    1. Say, you want to center your paragraph, then you will have to use `text-align: center;` property. But you can also align only the last line of the text by doing `text-align-last: (right/center/justify);`. There is also one handy property which is called `direction` and you can use it to change the direction of the text.
+1. Text Decoration
+    1. If you want to underline your text and you want to underline with dotted/dashed/wavy line for example, then you can use `text-decoration-style: dotted;`. You can also change the color of the underline with `text-decoration-color: pink;`.
+1. Text Transformation
+    1. You can use this property to transform your text to uppercase or lowercase by doing `text-transform: uppercase;`. 
+1. Text Shadow
+    1. If you want to decorate your text with shadows, you can use this property. The usage will be `text-shadow: 1px 1px 1px pink;`. 
+
+### You can also check out [MDN][MDN] for more information on the official website.
+![css_logo](/assets/images/css_logo.png "logo")
+
+
+[MDN]: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics

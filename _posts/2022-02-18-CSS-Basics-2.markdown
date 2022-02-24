@@ -4,7 +4,7 @@ title:  "CSS Basics - 2"
 date:   2022-02-18 14:12:19 +0630
 categories: jekyll update
 ---
-# Part 1
+# Part 2
 
 ## More CSS declarations 
 > I will be covering more useful CSS declarations in this blog. 
