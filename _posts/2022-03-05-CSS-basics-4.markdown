@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "CSS Basics - 4"
+date:   2022-03-05 12:00:24 +0630
+categories: jekyll update
+---
+# Part 4
+
+## Web Safe Fonts and Other Cool Fonts 
+> In CSS, there are a bunch of fonts you can use but there is something called web safe fonts. The web safe fonts will always work on every browser while other fonts are not guaranteed. Some of the web safe fonts that are also well known are `Times New Roman`, `Arial` and `Helvetica`. There are font families in CSS which is used so that if the first font you declared cant be found, then the browser will look for the second font and etc. 
+![CSS_fontFamily](/assets/images/CSS_fontFamily.png "CSS Font Family") 
+If you want to use other cool google fonts, you can do so by importing the font in external CSS. And then declaring that font in font family.
+![CSS_googleFonts](/assets/images/CSS_googleFonts.png "CSS Google Fonts") 
+
+## Font Size and Font Style
+> To adjust the size of the font you are using, you can easily do so by saying `font-size: 30px;` for the HTML tag you want to change. For the font style, you can change it by doing `font-style: oblique/italic;` something like this. If you want to bold a text, you can either do it by putting it between `<b>` tags or declaraing `font-weight: bold;`. There is also something called font varient where you can modify the text to all caps. The usage would be `font-varient: small-caps;`. 
+
+![CSS_fontVarient](/assets/images/CSS_fontVarient.png "CSS Font Varient") 
+
+## Icons
+> There are a bunch of icon libraries you can use. Let's choose ionicons for example. To use those icons, first you will have to declare two script tags they have on their website user every other code before `</body>`. Then, you can select any icon in their website and copy the component code. It would look something like this. 
+![CSS_icons1](/assets/images/CSS_icons1.png "CSS Icons 1")
+![CSS_icons2](/assets/images/CSS_icons2.png "CSS Icons 2")
+
+## Links
+> To make a link, all you have to do is wrap the link between the `<a>` tag followed by `href="<The actual link>"`. It looks something like this. The `target="_blank"` is when you want the link to open a new tab. 
+![CSS_links](/assets/images/CSS_links.png "CSS Links") 
+You can style your links in any ways you want. You could use background colors and borders to make a link button, link states such as `a:hover` or `a:visted` to make awesome effects when a user hover over link or clicked the link. 
+
+### You can also check out [MDN][MDN] for more information on the official website.
+![css_logo](/assets/images/css_logo.png "logo")
+
+
+[MDN]: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics

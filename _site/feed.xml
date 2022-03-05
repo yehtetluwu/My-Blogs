@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-02-18T15:23:47-08:00</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">CSS Basics - 2</title><link href="/jekyll/update/2022/02/17/CSS-Basics-2.html" rel="alternate" type="text/html" title="CSS Basics - 2" /><published>2022-02-17T23:42:19-08:00</published><updated>2022-02-17T23:42:19-08:00</updated><id>/jekyll/update/2022/02/17/CSS-Basics-2</id><content type="html" xml:base="/jekyll/update/2022/02/17/CSS-Basics-2.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-02-24T15:48:01-08:00</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">CSS Basics - 3</title><link href="/jekyll/update/2022/02/24/CSS-Basics-3.html" rel="alternate" type="text/html" title="CSS Basics - 3" /><published>2022-02-24T00:03:21-08:00</published><updated>2022-02-24T00:03:21-08:00</updated><id>/jekyll/update/2022/02/24/CSS-Basics-3</id><content type="html" xml:base="/jekyll/update/2022/02/24/CSS-Basics-3.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
+
+&lt;h2 id=&quot;margins&quot;&gt;Margins&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Let’s say you want to use a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h2&lt;/code&gt; heading but you also want to move your heading to a little more to the right side. Then you will have to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;margin-left: 100px;&lt;/code&gt;. This will mmove your heading to to your right by 100 pixels. 
+&lt;img src=&quot;/assets/images/CSS_margins.png&quot; alt=&quot;CSS_margins&quot; title=&quot;CSS margin&quot; /&gt; 
+In the above example, there are 4 declarations such as margin-left/right/top/bottom. You could also make it short by wirting it in shorthand notation which is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;margin: 100px 100px 100px 100px;&lt;/code&gt;. The order will be top, right, bottom and left. But if there is only two like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;margin: 100px 100px;&lt;/code&gt;, then the first 100 is for top, bottom and the second one is for left, right. If there is only one value, then all four sides will be the same as that value. There is also something called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;margins: auto;&lt;/code&gt; where the element will take up certain pixel size inside the container it is in and the leftover pixels will be equally split up between left and right.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;padding&quot;&gt;Padding&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;To differentiate between a margin and a padding, all you need to remember is that margin is the space outside the border and padding is the space between the border and the content. Below here is the image to make things easier to see. 
+&lt;img src=&quot;/assets/images/CSS_padding.png&quot; alt=&quot;CSS_padding&quot; title=&quot;CSS padding&quot; /&gt; 
+Padding has the same declaration values as CSS margins and also shorthand notation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;heightwidth&quot;&gt;Height/Width&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Say, you want to make your picture wider or taller, then you can use these properties. The usage would be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;width: 100px;&lt;/code&gt;. You can set height and width to any combos you want. You could even use auto which is also the default. You can set up the width to certain amount so that it doesnt go over that value. To do that, you have to say &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max-width: 500px;&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;text&quot;&gt;Text&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Since we have already covered about text color and background colors in part 1, we will talk about text decorations, alignments, shadows, and other elements here.&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Text alignment
+      &lt;ol&gt;
+        &lt;li&gt;Say, you want to center your paragraph, then you will have to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text-align: center;&lt;/code&gt; property. But you can also align only the last line of the text by doing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text-align-last: (right/center/justify);&lt;/code&gt;. There is also one handy property which is called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;direction&lt;/code&gt; and you can use it to change the direction of the text.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Text Decoration
+      &lt;ol&gt;
+        &lt;li&gt;If you want to underline your text and you want to underline with dotted/dashed/wavy line for example, then you can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text-decoration-style: dotted;&lt;/code&gt;. You can also change the color of the underline with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text-decoration-color: pink;&lt;/code&gt;.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Text Transformation
+      &lt;ol&gt;
+        &lt;li&gt;You can use this property to transform your text to uppercase or lowercase by doing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text-transform: uppercase;&lt;/code&gt;.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Text Shadow
+      &lt;ol&gt;
+        &lt;li&gt;If you want to decorate your text with shadows, you can use this property. The usage will be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text-shadow: 1px 1px 1px pink;&lt;/code&gt;.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;you-can-also-check-out-mdn-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics&quot;&gt;MDN&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/css_logo.png&quot; alt=&quot;css_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry><entry><title type="html">CSS Basics - 2</title><link href="/jekyll/update/2022/02/17/CSS-Basics-2.html" rel="alternate" type="text/html" title="CSS Basics - 2" /><published>2022-02-17T23:42:19-08:00</published><updated>2022-02-17T23:42:19-08:00</updated><id>/jekyll/update/2022/02/17/CSS-Basics-2</id><content type="html" xml:base="/jekyll/update/2022/02/17/CSS-Basics-2.html">&lt;h1 id=&quot;part-2&quot;&gt;Part 2&lt;/h1&gt;
 
 &lt;h2 id=&quot;more-css-declarations&quot;&gt;More CSS declarations&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -55,7 +104,7 @@
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;you-can-also-check-out-mdn-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics&quot;&gt;MDN&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/css_logo.png&quot; alt=&quot;css_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">CSS Basics - 1</title><link href="/jekyll/update/2022/02/04/CSS-basics-1.html" rel="alternate" type="text/html" title="CSS Basics - 1" /><published>2022-02-04T21:45:17-08:00</published><updated>2022-02-04T21:45:17-08:00</updated><id>/jekyll/update/2022/02/04/CSS-basics-1</id><content type="html" xml:base="/jekyll/update/2022/02/04/CSS-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/css_logo.png&quot; alt=&quot;css_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 2</summary></entry><entry><title type="html">CSS Basics - 1</title><link href="/jekyll/update/2022/02/04/CSS-basics-1.html" rel="alternate" type="text/html" title="CSS Basics - 1" /><published>2022-02-04T21:45:17-08:00</published><updated>2022-02-04T21:45:17-08:00</updated><id>/jekyll/update/2022/02/04/CSS-basics-1</id><content type="html" xml:base="/jekyll/update/2022/02/04/CSS-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
 
 &lt;h2 id=&quot;what-is-css&quot;&gt;What is CSS?&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -353,51 +402,4 @@ This is an example of 3 way merge.
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;you-can-also-check-out-git-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://git-scm.com/&quot;&gt;git&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/git_logo.png&quot; alt=&quot;git_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry><entry><title type="html">Laravel Basics - 5</title><link href="/jekyll/update/2021/10/12/laravel-basics-5.html" rel="alternate" type="text/html" title="Laravel Basics - 5" /><published>2021-10-12T00:46:05-07:00</published><updated>2021-10-12T00:46:05-07:00</updated><id>/jekyll/update/2021/10/12/laravel-basics-5</id><content type="html" xml:base="/jekyll/update/2021/10/12/laravel-basics-5.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
-
-&lt;h2 id=&quot;blade-templates&quot;&gt;Blade Templates&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Laravel has a really useful templating engine called blade. For starters, the blade files are stored in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;resources/view&lt;/code&gt; folder. An empty laravel project has a default page when you go to the localhost:8080. &lt;img src=&quot;/assets/images/default_page.png&quot; alt=&quot;default_page&quot; title=&quot;default-page&quot; /&gt;
-Blade templates use .blade.php as their extension. What you are seeing here is from a blade file called “welcome.blade.php”. Plain PHP codes can be used in blade template. You can also use routes and controllers to redirect the user to any blade pages you desire. Data can be displayed on the blade file by putting the variable inside { }.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;This is an example route&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Route::get(&apos;/&apos;, function () {&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;return view(&apos;welcome&apos;, [&apos;name&apos; =&amp;gt; &apos;Samantha&apos;]);&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;});&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;using-your-own-blade-file&quot;&gt;Using your own blade file&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;For example, if you want to get rid of a default page and insert a page you made, you will have to first of all create database, migrate it, add model and controller file, add your own blade file under view, and lastly you can use routes to set your blade as default page. CSS can also be used to style your page as well.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;rendering-json&quot;&gt;Rendering JSON&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;You can also initialize a javascript variable by inserting JSON code to your view.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;if-statements&quot;&gt;If statements&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;if statments can be deployed usind &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@if&lt;/code&gt; , &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@elseif&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@else&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@endif&lt;/code&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Here is an example if statment&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@if (count($records) === 1)
-    I have one record!
-@elseif (count($records) &amp;gt; 1)
-    I have multiple records!
-@else
-    I don&apos;t have any records!
-@endif
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;you-can-also-check-out-laravel-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://laravel.com/docs/8.x/releases&quot;&gt;Laravel&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/laravel-8.png&quot; alt=&quot;Laravel&quot; title=&quot;Laravel-8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 3</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/images/git_logo.png&quot; alt=&quot;git_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry></feed>
