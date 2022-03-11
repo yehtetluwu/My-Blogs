@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-02-24T15:48:01-08:00</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">CSS Basics - 3</title><link href="/jekyll/update/2022/02/24/CSS-Basics-3.html" rel="alternate" type="text/html" title="CSS Basics - 3" /><published>2022-02-24T00:03:21-08:00</published><updated>2022-02-24T00:03:21-08:00</updated><id>/jekyll/update/2022/02/24/CSS-Basics-3</id><content type="html" xml:base="/jekyll/update/2022/02/24/CSS-Basics-3.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-03-05T12:35:32-08:00</updated><id>/feed.xml</id><title type="html">My Blogs</title><subtitle>A little information on different topics about Laravel. I hope you like it!</subtitle><entry><title type="html">CSS Basics - 4</title><link href="/jekyll/update/2022/03/04/CSS-basics-4.html" rel="alternate" type="text/html" title="CSS Basics - 4" /><published>2022-03-04T21:30:24-08:00</published><updated>2022-03-04T21:30:24-08:00</updated><id>/jekyll/update/2022/03/04/CSS-basics-4</id><content type="html" xml:base="/jekyll/update/2022/03/04/CSS-basics-4.html">&lt;h1 id=&quot;part-4&quot;&gt;Part 4&lt;/h1&gt;
+
+&lt;h2 id=&quot;web-safe-fonts-and-other-cool-fonts&quot;&gt;Web Safe Fonts and Other Cool Fonts&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In CSS, there are a bunch of fonts you can use but there is something called web safe fonts. The web safe fonts will always work on every browser while other fonts are not guaranteed. Some of the web safe fonts that are also well known are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Times New Roman&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Arial&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Helvetica&lt;/code&gt;. There are font families in CSS which is used so that if the first font you declared cant be found, then the browser will look for the second font and etc. 
+&lt;img src=&quot;/assets/images/CSS_fontFamily.png&quot; alt=&quot;CSS_fontFamily&quot; title=&quot;CSS Font Family&quot; /&gt; 
+If you want to use other cool google fonts, you can do so by importing the font in external CSS. And then declaring that font in font family.
+&lt;img src=&quot;/assets/images/CSS_googleFonts.png&quot; alt=&quot;CSS_googleFonts&quot; title=&quot;CSS Google Fonts&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;font-size-and-font-style&quot;&gt;Font Size and Font Style&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;To adjust the size of the font you are using, you can easily do so by saying &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-size: 30px;&lt;/code&gt; for the HTML tag you want to change. For the font style, you can change it by doing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-style: oblique/italic;&lt;/code&gt; something like this. If you want to bold a text, you can either do it by putting it between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;b&amp;gt;&lt;/code&gt; tags or declaraing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-weight: bold;&lt;/code&gt;. There is also something called font varient where you can modify the text to all caps. The usage would be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-varient: small-caps;&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/CSS_fontVarient.png&quot; alt=&quot;CSS_fontVarient&quot; title=&quot;CSS Font Varient&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;icons&quot;&gt;Icons&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;There are a bunch of icon libraries you can use. Let’s choose ionicons for example. To use those icons, first you will have to declare two script tags they have on their website user every other code before &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt;. Then, you can select any icon in their website and copy the component code. It would look something like this. 
+&lt;img src=&quot;/assets/images/CSS_icons1.png&quot; alt=&quot;CSS_icons1&quot; title=&quot;CSS Icons 1&quot; /&gt;
+&lt;img src=&quot;/assets/images/CSS_icons2.png&quot; alt=&quot;CSS_icons2&quot; title=&quot;CSS Icons 2&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;To make a link, all you have to do is wrap the link between the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag followed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;href=&quot;&amp;lt;The actual link&amp;gt;&quot;&lt;/code&gt;. It looks something like this. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;target=&quot;_blank&quot;&lt;/code&gt; is when you want the link to open a new tab. 
+&lt;img src=&quot;/assets/images/CSS_links.png&quot; alt=&quot;CSS_links&quot; title=&quot;CSS Links&quot; /&gt; 
+You can style your links in any ways you want. You could use background colors and borders to make a link button, link states such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a:hover&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a:visted&lt;/code&gt; to make awesome effects when a user hover over link or clicked the link.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;you-can-also-check-out-mdn-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics&quot;&gt;MDN&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/css_logo.png&quot; alt=&quot;css_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 4</summary></entry><entry><title type="html">CSS Basics - 3</title><link href="/jekyll/update/2022/02/24/CSS-Basics-3.html" rel="alternate" type="text/html" title="CSS Basics - 3" /><published>2022-02-24T00:03:21-08:00</published><updated>2022-02-24T00:03:21-08:00</updated><id>/jekyll/update/2022/02/24/CSS-Basics-3</id><content type="html" xml:base="/jekyll/update/2022/02/24/CSS-Basics-3.html">&lt;h1 id=&quot;part-3&quot;&gt;Part 3&lt;/h1&gt;
 
 &lt;h2 id=&quot;margins&quot;&gt;Margins&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -359,47 +391,4 @@ This is an example of 3 way merge.
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;you-can-also-check-out-git-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://git-scm.com/&quot;&gt;git&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/git_logo.png&quot; alt=&quot;git_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 2</summary></entry><entry><title type="html">Git Basics - 1</title><link href="/jekyll/update/2021/10/19/git-basics-1.html" rel="alternate" type="text/html" title="Git Basics - 1" /><published>2021-10-19T23:30:05-07:00</published><updated>2021-10-19T23:30:05-07:00</updated><id>/jekyll/update/2021/10/19/git-basics-1</id><content type="html" xml:base="/jekyll/update/2021/10/19/git-basics-1.html">&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;what-is-git&quot;&gt;What is Git?&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Git is a version control system which is very very useful for everyone basically. It can handle projects from smaller ones to very big ones. Git can track your files very efficiently. People also tend to mistake git and github. They are not the same thing. As I mentioned above, git can save you a lot of time tracking your projects and github is a cloud-based hosting services that control your repositories.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;how-to-install-git-in-your-machine&quot;&gt;How to install git in your machine&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;There are few different ways to install git on a Mac but my favourite would be,&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Open Terminal&lt;/li&gt;
-    &lt;li&gt;Run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brew install git&lt;/code&gt; (You will need to have Homebrew installed first)&lt;/li&gt;
-    &lt;li&gt;Then varify by running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git version&lt;/code&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;To install git on Windows&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Download the latest version from &lt;a href=&quot;https://gitforwindows.org/&quot;&gt;git installer&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Follow instructions in Git Setup wizard&lt;/li&gt;
-    &lt;li&gt;Open command prompt&lt;/li&gt;
-    &lt;li&gt;Then varify by running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git version&lt;/code&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;To install Git on Linux&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Open command prompt&lt;/li&gt;
-    &lt;li&gt;For Debian and Ubuntu, run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get update&lt;/code&gt; first then run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get install git-all&lt;/code&gt;&lt;/li&gt;
-    &lt;li&gt;For Fedora, run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo dnf install git-all&lt;/code&gt;&lt;/li&gt;
-    &lt;li&gt;Then varify by running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git version&lt;/code&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;initiate-a-repo&quot;&gt;Initiate a repo&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;To create a new local repo in your current working directory, you have to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git init&lt;/code&gt;. If you run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls -al&lt;/code&gt; command, you will see a file name &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.git&lt;/code&gt;. You don’t need to touch it but that is going to track everything you do in your directory. You won’t be able to push, commit, merge, fetch without a .git file in your working directory and will get the error message &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fatal: not a git repository (or any of the parent directories): .git&lt;/code&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;you-can-also-check-out-git-for-more-information-on-the-official-website&quot;&gt;You can also check out &lt;a href=&quot;https://git-scm.com/&quot;&gt;git&lt;/a&gt; for more information on the official website.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/git_logo.png&quot; alt=&quot;git_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 1</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/images/git_logo.png&quot; alt=&quot;git_logo&quot; title=&quot;logo&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Part 2</summary></entry></feed>

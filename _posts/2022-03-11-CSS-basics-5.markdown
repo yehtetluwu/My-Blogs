@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "CSS Basics - 5"
+date:   2022-03-11 00:23:27 +0630
+categories: jekyll update
+---
+# Part 5
+
+## Lists 
+> There are a lot of things you can do to bullet points in CSS. One of the most interesting thing you can do is custom bullet points. You can even use any image you want or even emojies as bullet points. But first, there are unordered lists and then ordered lists. Ordered list is where they have numbers or letters as bulet points and unorderd list is with normal bullet points. There are also different styles for unordered list and you can change them by doing `list-style-type: disc/square/etc;`. To use image for bullet points, you can simply say `list-style-image: url('<path_of_image'>);`. You can also position the context of the bullet points with `list-style-position`.
+
+![CSS_lists](/assets/images/CSS_lists.png "CSS Lists") 
+
+## Tables
+> You can make tables more fancy with CSS. You can design the tables however you want which is amazing. To make a table, you need to know about four HTML tags. They are `<table>`, `<tr>`, `<th>` and `<td>`. First, you will need to put the table tag and put everything you want to inside of the table between that table tags. "tr" means table row, "th" means table header and "td" is for table data. To customize your table, you can either give a class name or ID name to table tags. You can also define borders for the table to get different border types.
+![CSS_tables](/assets/images/CSS_tables.png "CSS Tables") 
+
+## Display and Widths 
+> Say, you want to make a card invisible to the user but the card is actually still in the code, there is something called `display: none;`. Or lets say, you want to make a horizontal list for nav the bar, CSS has `display: inline;` property that can help you with this. There are two types of elements: block level and inline elements. Block level elements will take up the whole width of the screen by default. You can always use `width` to set the width of those elements to whatever you want. But for responsive websites, if the screen width of the device is smaller than the defined width value, things will look ugly. To avoid that, there is something called `max-width` where it will adjust the width of the element to the screen for screen sizes that are smaller than the defiend max width value.
+
+
+### You can also check out [MDN][MDN] for more information on the official website.
+![css_logo](/assets/images/css_logo.png "logo")
+
+
+[MDN]: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
