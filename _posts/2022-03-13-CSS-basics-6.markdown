@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "CSS Basics - 6"
+date:   2022-03-13 12:13:30 +0630
+categories: jekyll update
+---
+# Part 6
+
+## Positioning your elements
+> There are a bunch of values for this property for positioning your divs or any elements. They are stactic, relative, absolute, fixed and sticky. Static is basically the default position on the page while relative means the position relative to the default normal position. Fixed position is when you want your element to not move even when you scroll. Sticky is mostly for when you want the nav bar to stick to the top when you scroll down while for absolute, the element will be placed **relative to the parent element** instead of being like fixed. 
+![CSS_positions](/assets/images/CSS_positions.png "CSS Positions") 
+
+## Overlapping elements with Z-index
+> In CSS, you can overlap each other using something called `Z-index`. For example, you can use it to put one image over another with it. The values are just 1 and -1. You could also use it for nav bar when you want the dropdown to overlap the elements under it.   
+![CSS_z-index](/assets/images/CSS_z-index.png "CSS Z-index") 
+
+## Overflow and Floating
+> Overflow is when the content you want to put doenst fit the area and therefore the leftover is overflowing the area and you can use this property to handle the situation. Overflow has four values and they are **visible, hidden, scroll and auto**. Visible means you dont do anything to the overflow and it will just flow outside the box. Hidden is kinda opposite to overflow and it will hide the ovreflowing content. The overflowing content will turn into a scroll if you set it to scroll. Auto is basically the same as scroll but it will only add the scrollbar if it's only needed.
+If you want to put your image to either left or right side of the text, you can use `float` property. Let's say you have a text and you put an img without float, the image will be shown at the first line of the text and it will be weird. Float has two values - left and right.
+![CSS_overflow](/assets/images/CSS_overflow.png "CSS Overflow")
+
+
+### You can also check out [MDN][MDN] for more information on the official website.
+![css_logo](/assets/images/css_logo.png "logo")
+
+
+[MDN]: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
