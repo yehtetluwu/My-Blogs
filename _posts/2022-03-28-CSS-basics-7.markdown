@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "CSS Basics - 7"
+date:   2022-03-28 16:57:33 +0630
+categories: jekyll update
+---
+# Part 7
+
+## In-line blocks and aligning your content
+> Lets say you have a paragraph and you want to add an image in line with the text. Normally there is `display: inline` but you can't adjust width and height if you use that. And also margin and padding of that image will be the same as the text beside it. So we have something called `display: inline-block` where the image will be treated basically a new div. 
+![CSS_displayInline](/assets/images/CSS_displayInline.png "CSS inline and inline-block")
+> You can align your div, text or images by using `align` property. Say, you want to align your text to left or center, you can use `text-align: center/left`. But to align your divs or images, you will have to specify the exact numbers. For example, you will have to specifically define the amount of margin you want. 
+
+## Descendant Selector
+> If you have a div that have a paragraph and a heading for example and you want to modify both, you want to set the background of the heading to yellow and background of the paragraph to red. In that case, just specifying `background-color: yellow` won't work because it will change the background both of them. In this case, you will have to use something called descendant selector. By specifying `div h1{ background-color: yellow; }` and `div p { background-color: red; }`, both can be changed because h1 and p tags are descendant of the div. 
+![CSS_descendantSelector](/assets/images/CSS_descendantSelector.png "CSS Descendant Selector") 
+
+## Child and Adjacent sibling selector
+> Child selector is for the elements that are the directly under the parent element. Let's say you have a div and there are three paragraph tags, you can select all of them by saying `div > p { }`. That way, you will be able to modify all of the child elements. 
+![CSS_childSelector](/assets/images/CSS_childSelector.png "CSS Child Selector") 
+> Lets say you have a div and an image outside of div. If you want to change the image, you can also change it by using `div + img {}` selector. This will modify the element which is **right after** the div. 
+![CSS_adjacentSelector](/assets/images/CSS_adjacentSelector.png "CSS Adjacent Selector") 
+
+
+### You can also check out [MDN][MDN] for more information on the official website.
+![css_logo](/assets/images/css_logo.png "logo")
+
+
+[MDN]: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
