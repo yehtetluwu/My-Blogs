@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "CSS Basics - 7"
+date:   2022-04-07 16:57:33 +0630
+categories: jekyll update
+---
+# Part 8
+
+## Pseudo classes
+> Have you ever wondered about the website buttons or search bars where you hover your mouse over them or click them and they give you a transformed designs and how they are made? That's where pseudo classes come in. It's really simple to use them. All you have to do is choose the selector you want to modify and then choose any effects you want. They have hover, focus, visted, link and active. The syntax would be ` p:hover { color: red }`. This example will change the text color of p element to red when you hover over it. 
+![CSS_hover](/assets/images/CSS_hover.png "CSS Hover") 
+
+## Pseudo elements
+> There is also something called Pseudo elements which is basically Pseudo elements because they have the same syntax. The only difference would be needing two semicolons instead of one. Pseudo elements can modify more specific part of the html elements. Suppose you want to change the color of first line in p tag, you can do it with ` p::first-line { color: red }`. There are also many other pseudo elements that you can use. You can modify only the first letter of an element with `first-letter`, you can add content before or after an element with `before/after`, you can modify the bullet points with `marker`, and the last but not the least, you can also modify how things look when you select a text with `selection`.
+![CSS_firstLine](/assets/images/CSS_firstLine.png "CSS First Line") 
+
+## Opacity
+> You can change the transparency of a container, image or basically anything with this element. The syntax is `container { opacity: 0.6 }`. The value is from 0-1.0. What's even better is that you can also use this together with Pesudo classes where for example, you can make an change the opacity of an image when you hover over it. You can also change the opacity with RGBA color code.
+![CSS_opacity](/assets/images/CSS_opacity.png "CSS Opacity")
+
+
+### You can also check out [MDN][MDN] for more information on the official website.
+![css_logo](/assets/images/css_logo.png "logo")
+
+
+[MDN]: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
