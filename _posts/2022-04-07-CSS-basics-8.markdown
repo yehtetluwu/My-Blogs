@@ -11,7 +11,7 @@ categories: jekyll update
 ![CSS_hover](/assets/images/CSS_hover.png "CSS Hover") 
 
 ## Pseudo elements
-> There is also something called Pseudo elements which is basically Pseudo elements because they have the same syntax. The only difference would be needing two semicolons instead of one. Pseudo elements can modify more specific part of the html elements. Suppose you want to change the color of first line in p tag, you can do it with ` p::first-line { color: red }`. There are also many other pseudo elements that you can use. You can modify only the first letter of an element with `first-letter`, you can add content before or after an element with `before/after`, you can modify the bullet points with `marker`, and the last but not the least, you can also modify how things look when you select a text with `selection`.
+> There is also something called Pseudo elements which is basically Pseudo elements because they have the same syntax. The only difference would be needing two semicolons instead of one. Pseudo elements can modify more specific part of the html elements. Suppose you want to change the color of first line in p tag, you can do it with `p::first-line { color: red }` . There are also many other pseudo elements that you can use. You can modify only the first letter of an element with `first-letter`, you can add content before or after an element with `before/after`, you can modify the bullet points with `marker`, and the last but not the least, you can also modify how things look when you select a text with `selection`.
 ![CSS_firstLine](/assets/images/CSS_firstLine.png "CSS First Line") 
 
 ## Opacity
